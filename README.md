@@ -22,7 +22,7 @@ Remplazar linea número 13 de ```basexhttp``` por:
 ```
 CP="$BX/BaseX.jar$(printf ":%s" "$BX/lib/"*.jar "$BXCORE/lib/"*.jar):$CLASSPATH""/lib/basex-api-8.2.3.jar"
 ```
-####**Nota:* Paso 2 y 3 se encuentran en el proyecto.  
+#### Nota: Paso 2 y 3 se encuentran en el proyecto.  
 ## Equipo 
 * Eli Pacheco 
 * Christian Orrego - chd.orrego@gmail.com
