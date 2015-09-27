@@ -31,6 +31,6 @@ Remplazar linea número 13 de ```basexhttp``` por:
 
 ## Funcionalidades  
 * Login
-* Register 
+* Registro 
 * Actualizar Datos
 * Cerrar Cuenta
