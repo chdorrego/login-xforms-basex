@@ -1,0 +1,101 @@
+20:47:34.754	SERVER	admin	OK	Server was started (port: 1984).
+20:47:34.802	SERVER	admin	OK	HTTP Server was started (port: 8984).
+20:47:35.610	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+20:47:35.611	SERVER	admin	OK	Server was stopped (port: 1984).
+20:49:33.421	SERVER	admin	OK	Server was started (port: 1984).
+20:49:33.472	SERVER	admin	OK	HTTP Server was started (port: 8984).
+20:49:46.082	127.0.0.1:53228	admin	REQUEST	REPO INSTALL basex-api	37.74 ms
+20:49:46.169	127.0.0.1:53228	admin	ERROR	Stopped at , 1/23: [bxerr:BXRE0001] Package 'basex-api' does not exist.	86.22 ms
+20:49:49.210	127.0.0.1:53228	admin	REQUEST	REPO INSTALL basex-api.jar	0.71 ms
+20:49:49.211	127.0.0.1:53228	admin	ERROR	Stopped at , 1/27: [bxerr:BXRE0001] Package 'basex-api.jar' does not exist.	0.77 ms
+20:49:57.546	127.0.0.1:53228	admin	REQUEST	REPO INSTALL basex-api-8.2.3.jar	0.76 ms
+20:49:57.547	127.0.0.1:53228	admin	ERROR	Stopped at , 1/33: [bxerr:BXRE0001] Package 'basex-api-8.2.3.jar' does not exist.	0.97 ms
+20:52:30.372	SERVER	admin	ERROR	Server is running or permission was denied.
+20:52:35.603	0:0:0:0:0:0:0:1:53356	admin	REQUEST	[GET] http://localhost:8984/
+20:52:36.182	0:0:0:0:0:0:0:1:53357	admin	REQUEST	[GET] http://localhost:8984/
+20:52:37.723	0:0:0:0:0:0:0:1:53356	admin	404	No function found that matches the request.	2122.45 ms
+20:52:37.802	0:0:0:0:0:0:0:1:53357	admin	404	No function found that matches the request.	1620.67 ms
+20:52:38.036	0:0:0:0:0:0:0:1:53357	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+20:52:38.141	0:0:0:0:0:0:0:1:53357	admin	404	No function found that matches the request.	105.74 ms
+20:52:38.156	0:0:0:0:0:0:0:1:53357	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+20:52:38.157	0:0:0:0:0:0:0:1:53366	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+20:52:38.252	0:0:0:0:0:0:0:1:53357	admin	404	No function found that matches the request.	95.6 ms
+20:52:38.329	0:0:0:0:0:0:0:1:53366	admin	404	No function found that matches the request.	172.57 ms
+21:03:51.974	SERVER	admin	OK	Server was stopped (port: 1984).
+21:03:51.977	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+21:04:30.850	SERVER	admin	OK	Server was started (port: 1984).
+21:04:30.886	SERVER	admin	OK	HTTP Server was started (port: 8984).
+21:04:36.970	0:0:0:0:0:0:0:1:54098	admin	REQUEST	[GET] http://localhost:8984/
+21:04:38.372	0:0:0:0:0:0:0:1:54098	admin	404	No function found that matches the request.	1404.3 ms
+21:04:40.747	0:0:0:0:0:0:0:1:54098	admin	REQUEST	[GET] http://localhost:8984/
+21:04:40.835	0:0:0:0:0:0:0:1:54098	admin	404	No function found that matches the request.	88.0 ms
+21:04:57.299	0:0:0:0:0:0:0:1:54098	admin	REQUEST	[GET] http://localhost:8984/
+21:04:57.383	0:0:0:0:0:0:0:1:54098	admin	404	No function found that matches the request.	84.06 ms
+21:05:13.844	0:0:0:0:0:0:0:1:54112	admin	REQUEST	[POST] http://localhost:8984/login
+21:05:13.976	0:0:0:0:0:0:0:1:54112	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 5/10: [bxerr:BASX0003] Path "/login" assigned to several functions: /Users/Christian/basex/webapp/reqLogin.xqm, 5/10 /Users/Christian/basex/webapp/static/authentication/reqLogin.xqm, 5/10	132.61 ms
+21:06:13.089	0:0:0:0:0:0:0:1:54098	admin	REQUEST	[POST] http://localhost:8984/login
+21:06:13.357	0:0:0:0:0:0:0:1:54098	admin	200		268.34 ms
+21:08:14.379	0:0:0:0:0:0:0:1:54276	admin	REQUEST	[POST] http://localhost:8984/login
+21:08:14.479	0:0:0:0:0:0:0:1:54276	admin	200		100.96 ms
+21:12:27.012	0:0:0:0:0:0:0:1:54929	admin	REQUEST	[POST] http://localhost:8984/login
+21:12:27.066	0:0:0:0:0:0:0:1:54929	admin	400	Stopped at /Users/Christian/basex/webapp/logout.xq, 4/30: [XPST0003] Variable or function declaration expected.	55.35 ms
+21:12:59.209	0:0:0:0:0:0:0:1:54929	admin	REQUEST	[POST] http://localhost:8984/login
+21:12:59.242	0:0:0:0:0:0:0:1:54929	admin	400	Stopped at /Users/Christian/basex/webapp/logout.xq, 4/31: [XPST0003] Variable or function declaration expected.	33.19 ms
+21:13:56.266	0:0:0:0:0:0:0:1:54929	admin	REQUEST	[POST] http://localhost:8984/login
+21:13:56.293	0:0:0:0:0:0:0:1:54929	admin	400	Stopped at /Users/Christian/basex/webapp/logout.xq, 7/2: [XPST0003] Expecting ';'.	27.1 ms
+21:14:12.672	0:0:0:0:0:0:0:1:54929	admin	REQUEST	[POST] http://localhost:8984/login
+21:14:12.769	0:0:0:0:0:0:0:1:54929	admin	200		97.0 ms
+21:14:24.895	0:0:0:0:0:0:0:1:54929	admin	REQUEST	[GET] http://localhost:8984/logout
+21:14:24.951	0:0:0:0:0:0:0:1:54929	admin	200		56.22 ms
+21:16:27.816	0:0:0:0:0:0:0:1:55330	admin	REQUEST	[POST] http://localhost:8984/login
+21:16:27.930	0:0:0:0:0:0:0:1:55330	admin	200		115.05 ms
+21:16:41.242	0:0:0:0:0:0:0:1:55330	admin	REQUEST	[POST] http://localhost:8984/login
+21:16:41.300	0:0:0:0:0:0:0:1:55330	admin	200		57.96 ms
+21:16:52.010	0:0:0:0:0:0:0:1:55330	admin	REQUEST	[POST] http://localhost:8984/login
+21:16:52.070	0:0:0:0:0:0:0:1:55330	admin	200		60.45 ms
+21:19:19.531	0:0:0:0:0:0:0:1:55364	admin	REQUEST	[POST] http://localhost:8984/login
+21:19:19.617	0:0:0:0:0:0:0:1:55364	admin	200		86.3 ms
+21:21:21.881	0:0:0:0:0:0:0:1:55396	admin	REQUEST	[POST] http://localhost:8984/login
+21:21:21.908	0:0:0:0:0:0:0:1:55396	admin	400	Stopped at /Users/Christian/basex/webapp/login.xq, 21/37: [XQST0118] Different start and end tag: <sesionid>...</sessionid>.	27.11 ms
+21:21:46.173	0:0:0:0:0:0:0:1:55396	admin	REQUEST	[POST] http://localhost:8984/login
+21:21:46.240	0:0:0:0:0:0:0:1:55396	admin	200		67.64 ms
+21:25:20.911	0:0:0:0:0:0:0:1:55488	admin	REQUEST	[GET] http://localhost:8984/
+21:25:21.017	0:0:0:0:0:0:0:1:55488	admin	404	No function found that matches the request.	106.49 ms
+21:25:55.113	0:0:0:0:0:0:0:1:55488	admin	REQUEST	[GET] http://localhost:8984/
+21:25:55.245	0:0:0:0:0:0:0:1:55488	admin	200		132.43 ms
+21:25:58.363	0:0:0:0:0:0:0:1:55509	admin	REQUEST	[GET] http://localhost:8984/login
+21:25:58.414	0:0:0:0:0:0:0:1:55509	admin	404	No function found that matches the request.	51.35 ms
+21:26:00.952	0:0:0:0:0:0:0:1:55509	admin	REQUEST	[GET] http://localhost:8984/
+21:26:01.004	0:0:0:0:0:0:0:1:55509	admin	200		52.05 ms
+21:26:13.396	0:0:0:0:0:0:0:1:55509	admin	REQUEST	[GET] http://localhost:8984/login
+21:26:13.451	0:0:0:0:0:0:0:1:55509	admin	404	No function found that matches the request.	55.1 ms
+21:33:48.097	0:0:0:0:0:0:0:1:55930	admin	REQUEST	[PUT] http://localhost:8984/logout
+21:33:48.131	0:0:0:0:0:0:0:1:55930	admin	400	Stopped at /Users/Christian/basex/webapp/logout.xq, 7/6: [XPST0003] Expecting '}', found 'd'.	34.32 ms
+21:36:40.261	0:0:0:0:0:0:0:1:56078	admin	REQUEST	[PUT] http://localhost:8984/logout
+21:36:40.286	0:0:0:0:0:0:0:1:56078	admin	400	Stopped at /Users/Christian/basex/webapp/logout.xq, 7/6: [XPST0003] Expecting '}', found 'd'.	25.34 ms
+21:37:33.262	0:0:0:0:0:0:0:1:56078	admin	REQUEST	[POST] http://localhost:8984/login
+21:37:33.287	0:0:0:0:0:0:0:1:56078	admin	400	Stopped at /Users/Christian/basex/webapp/logout.xq, 7/6: [XPST0003] Expecting '}', found 'd'.	25.31 ms
+21:38:19.011	0:0:0:0:0:0:0:1:56653	admin	REQUEST	[POST] http://localhost:8984/login
+21:38:19.097	0:0:0:0:0:0:0:1:56653	admin	200		85.48 ms
+21:38:51.072	0:0:0:0:0:0:0:1:56653	admin	REQUEST	[PUT] http://localhost:8984/logout
+21:38:51.137	0:0:0:0:0:0:0:1:56653	admin	200		65.69 ms
+21:39:24.850	0:0:0:0:0:0:0:1:56653	admin	REQUEST	[POST] http://localhost:8984/login
+21:39:24.942	0:0:0:0:0:0:0:1:56653	admin	200		93.54 ms
+21:39:41.143	0:0:0:0:0:0:0:1:56653	admin	REQUEST	[POST] http://localhost:8984/login
+21:39:41.213	0:0:0:0:0:0:0:1:56653	admin	200		70.55 ms
+21:39:54.072	0:0:0:0:0:0:0:1:56653	admin	REQUEST	[POST] http://localhost:8984/login
+21:39:54.133	0:0:0:0:0:0:0:1:56653	admin	200		61.54 ms
+21:40:20.550	0:0:0:0:0:0:0:1:56653	admin	REQUEST	[POST] http://localhost:8984/login
+21:40:20.609	0:0:0:0:0:0:0:1:56653	admin	200		59.53 ms
+21:40:49.516	0:0:0:0:0:0:0:1:56924	admin	REQUEST	[POST] http://localhost:8984/login
+21:40:49.568	0:0:0:0:0:0:0:1:56924	admin	200		52.09 ms
+21:40:57.223	0:0:0:0:0:0:0:1:56924	admin	REQUEST	[POST] http://localhost:8984/login
+21:40:57.271	0:0:0:0:0:0:0:1:56924	admin	200		48.29 ms
+21:41:12.421	0:0:0:0:0:0:0:1:56924	admin	REQUEST	[POST] http://localhost:8984/login
+21:41:12.470	0:0:0:0:0:0:0:1:56924	admin	200		48.68 ms
+21:42:05.430	0:0:0:0:0:0:0:1:56924	admin	REQUEST	[POST] http://localhost:8984/login
+21:42:05.481	0:0:0:0:0:0:0:1:56924	admin	200		51.35 ms
+21:42:16.727	0:0:0:0:0:0:0:1:56924	admin	REQUEST	[PUT] http://localhost:8984/logout
+21:42:16.761	0:0:0:0:0:0:0:1:56924	admin	200		33.68 ms
+21:42:20.571	0:0:0:0:0:0:0:1:56924	admin	REQUEST	[POST] http://localhost:8984/login
+21:42:20.624	0:0:0:0:0:0:0:1:56924	admin	200		53.42 ms

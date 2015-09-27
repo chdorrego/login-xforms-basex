@@ -1,0 +1,25 @@
+<?xml-stylesheet href="xsltforms/xsltforms.xsl" type="text/xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xf="http://www.w3.org/2002/xforms">
+<head>
+	<title></title>
+	<xf:model xmlns:xf="http://www.w3.org/2002/xforms">
+		<xf:instance>
+			<account xmlns="">
+				<user/>
+				<name/>
+				<email/>
+				<password/>
+			</account>
+		</xf:instance>
+		<xf:submission id="save" resource="/rest/account/account-guardada.xml" method="PUT" replace="none"/>
+	</xf:model>
+</head>
+<body>
+	<h1>Registro de usuario</h1>
+	<xf:input xmlns:xf="http://www.w3.org/2002/xforms" ref="user"><xf:label>Usuario: </xf:label></xf:input>
+	<xf:input xmlns:xf="http://www.w3.org/2002/xforms" ref="name"><xf:label>Nombre: </xf:label></xf:input>
+	<xf:input xmlns:xf="http://www.w3.org/2002/xforms" ref="email"><xf:label>Correo: </xf:label></xf:input>
+	<xf:input xmlns:xf="http://www.w3.org/2002/xforms" ref="password"><xf:label>Contrasena: </xf:label></xf:input>
+	<xf:submit xmlns:xf="http://www.w3.org/2002/xforms" submission="save"><xf:label>Registrar</xf:label></xf:submit>
+</body>
+</html>

@@ -1,0 +1,103 @@
+# Paths
+INPUTPATH = /Users/Christian/BaseXData/Hojas
+DATAPATH = /Users/Christian/basex/
+WORKPATH = /Users/Christian/basex/webapp/static/
+PROJECTPATH = 
+EDITOR = 0
+INPUTS = 1
+INPUTS1 = /Users/Christian/BaseXData/Hojas
+OPEN = 0
+
+# Layout
+FONT = SansSerif
+MONOFONT = Monospaced
+FONTTYPE = 0
+FONTSIZE = 13
+COLORRED = 15
+COLORGREEN = 11
+COLORBLUE = 6
+
+# Windows
+UPDATEVERSION = 8.2.3
+VIEWS = V H editor folder map plot - H text info table tree explore - - 
+GUISIZE0 = 1004
+GUISIZE1 = 741
+GUILOC0 = 218
+GUILOC1 = 23
+MAXSTATE = true
+SHOWBUTTONS = true
+SHOWINPUT = true
+SHOWSTATUS = true
+SHOWINFO = true
+SHOWMAP = true
+SHOWTABLE = false
+SHOWTEXT = true
+SHOWFOLDER = false
+SHOWEXPLORE = false
+SHOWPLOT = false
+SHOWEDITOR = true
+SHOWTREE = false
+SHOWPROJECT = true
+FONTSLOC0 = 10
+FONTSLOC1 = 530
+COLORSLOC0 = 530
+COLORSLOC1 = 620
+BINDINGSLOC0 = 100
+BINDINGSLOC1 = 230
+PREFTAB = 0
+LOOKANDFEEL = 
+SHOWNAME = true
+MOUSEFOCUS = false
+SIMPLEFD = false
+ASCSORT = true
+CASESORT = true
+MERGEDUPL = false
+SHOWMARGIN = true
+MARGIN = 80
+TABSPACES = true
+INDENT = 2
+SHOWINVISIBLE = true
+SHOWNL = false
+SHOWLINES = true
+MARKLINE = true
+SAVERUN = false
+AUTO = true
+FILES = *.xml, *.xq*
+HIDDENFILES = true
+SEARCHMODE = 0
+FILTERRT = false
+EXECRT = false
+DBNAME = Hojas
+LASTINSERT = 1
+
+# Visualizations
+MAPATTS = false
+MAPOFFSETS = 3
+MAPALGO = 0
+MAPWEIGHT = 0
+TREESLIM = true
+TREEATTS = false
+PLOTDOTS = 0
+PLOTXLOG = false
+PLOTYLOG = false
+MAXTEXT = 2097152
+MAXHITS = 250000
+
+# Search
+SR_SEARCH = 
+SR_REPLACE = 
+SR_REGEX = false
+SR_CASE = false
+SR_WORD = false
+SR_MULTI = false
+SEARCHED = 1
+SEARCHED1 = 
+REPLACED = 0
+
+# History
+COMMANDS = 0
+SEARCH = 1
+SEARCH1 = 
+XQUERY = 0
+
+# Local Options

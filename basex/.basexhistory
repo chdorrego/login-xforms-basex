@@ -1,0 +1,21 @@
+REPO INSTALL hello-world.xqm
+REPO INSTALL http://files.basex.org/modules/expath/functx-1.0.xar
+REPO LIST
+REPO DELETE http://www.functx.com-1.0
+REPO LIST
+REPO INSTALL http://files.basex.org/modules/org/basex/modules/Hello/HelloWorld.xqm
+REPO LIST
+REPO REMOVE org/basex/modules/Hello.xqm
+REPO DELETE org/basex/modules/Hello.xqm
+REPO LIST
+REPO DELETE org
+REPO INSTALL http://exquery.org/ns/request
+REPO INSTALL http://expath.org/ns/http-client
+REPO INSTALL http://basex.org/modules/xquery
+REPO INSTALL http://exquery.org/ns/request
+REPO INSTALL http://exist-db.org/xquery/request
+REPO INSTALL http://expath.org/ns/http-client
+REPO  INSTALL http://code.google.com/p/xrx/style
+REPO INSTALL http://code.google.com/p/xrx/style
+REPO
+REPO LIST

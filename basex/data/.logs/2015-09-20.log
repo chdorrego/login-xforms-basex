@@ -1,0 +1,688 @@
+10:33:14.446	SERVER	admin	OK	Server was started (port: 1984).
+10:33:14.496	SERVER	admin	OK	HTTP Server was started (port: 8984).
+10:33:22.239	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/
+10:33:23.648	0:0:0:0:0:0:0:1:49976	admin	200		1411.31 ms
+10:33:38.054	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/rest
+10:33:38.095	0:0:0:0:0:0:0:1:49976	admin	200		41.61 ms
+10:33:43.038	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/rest/Hojas
+10:33:43.074	0:0:0:0:0:0:0:1:49976	admin	200		36.65 ms
+10:33:48.098	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/dba
+10:33:48.142	0:0:0:0:0:0:0:1:49976	admin	302		44.82 ms
+10:33:48.143	0:0:0:0:0:0:0:1:49976	admin	200		0.2 ms
+10:33:48.147	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/dba/databases
+10:33:48.282	0:0:0:0:0:0:0:1:49976	admin	302		135.14 ms
+10:33:48.282	0:0:0:0:0:0:0:1:49976	admin	200		0.2 ms
+10:33:48.288	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/dba/login
+10:33:48.340	0:0:0:0:0:0:0:1:49976	admin	200		52.86 ms
+10:33:48.368	0:0:0:0:0:0:0:1:49982	admin	REQUEST	[GET] http://localhost:8984/dba/static/basex.svg
+10:33:48.370	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/dba/static/style.css
+10:33:48.378	0:0:0:0:0:0:0:1:49977	admin	REQUEST	[GET] http://localhost:8984/dba/static/js.js
+10:33:48.424	0:0:0:0:0:0:0:1:49982	admin	200		55.92 ms
+10:33:48.448	0:0:0:0:0:0:0:1:49977	admin	200		69.87 ms
+10:33:48.477	0:0:0:0:0:0:0:1:49976	admin	200		107.19 ms
+10:33:53.010	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[POST] http://localhost:8984/dba/login-check
+10:33:53.069	SERVER	admin	INFO	User was logged in: admin
+10:33:53.070	0:0:0:0:0:0:0:1:49976	admin	302		60.59 ms
+10:33:53.070	0:0:0:0:0:0:0:1:49976	admin	200		0.16 ms
+10:33:53.078	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/dba/databases
+10:33:53.186	0:0:0:0:0:0:0:1:49976	admin	200		108.76 ms
+10:33:59.461	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[POST] http://localhost:8984/dba/databases
+10:33:59.505	0:0:0:0:0:0:0:1:49976	admin	302		44.63 ms
+10:33:59.505	0:0:0:0:0:0:0:1:49976	admin	200		0.17 ms
+10:33:59.511	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/dba/drop-db?name=Hojas&redirect=databases
+10:33:59.555	0:0:0:0:0:0:0:1:49976	admin	302		43.8 ms
+10:33:59.555	0:0:0:0:0:0:0:1:49976	admin	200		0.18 ms
+10:33:59.559	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/dba/databases?info=Dropped%20databases%3A%201
+10:33:59.643	0:0:0:0:0:0:0:1:49976	admin	200		84.49 ms
+10:34:00.608	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[POST] http://localhost:8984/dba/databases
+10:34:00.642	0:0:0:0:0:0:0:1:49976	admin	302		33.95 ms
+10:34:00.642	0:0:0:0:0:0:0:1:49976	admin	200		0.13 ms
+10:34:00.646	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/dba/create-db
+10:34:00.700	0:0:0:0:0:0:0:1:49976	admin	200		54.4 ms
+10:34:07.474	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[POST] http://localhost:8984/dba/create-db
+10:34:07.535	0:0:0:0:0:0:0:1:49976	admin	302		61.12 ms
+10:34:07.535	0:0:0:0:0:0:0:1:49976	admin	200		0.14 ms
+10:34:07.539	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/dba/database?name=Hojas&info=Created%20Database%3A%20Hojas
+10:34:07.611	0:0:0:0:0:0:0:1:49976	admin	200		72.21 ms
+10:34:10.276	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[POST] http://localhost:8984/dba/database
+10:34:10.322	0:0:0:0:0:0:0:1:49976	admin	302		46.33 ms
+10:34:10.322	0:0:0:0:0:0:0:1:49976	admin	200		0.16 ms
+10:34:10.326	0:0:0:0:0:0:0:1:49976	admin	REQUEST	[GET] http://localhost:8984/dba/add?name=Hojas
+10:34:10.368	0:0:0:0:0:0:0:1:49976	admin	200		41.9 ms
+10:38:24.569	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[GET] http://localhost:8984/
+10:38:24.618	0:0:0:0:0:0:0:1:50006	admin	200		48.41 ms
+10:38:26.878	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[GET] http://localhost:8984/dba
+10:38:26.918	0:0:0:0:0:0:0:1:50006	admin	302		40.13 ms
+10:38:26.919	0:0:0:0:0:0:0:1:50006	admin	200		0.16 ms
+10:38:26.922	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[GET] http://localhost:8984/dba/databases
+10:38:26.997	0:0:0:0:0:0:0:1:50006	admin	200		75.19 ms
+10:38:30.740	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[POST] http://localhost:8984/dba/databases
+10:38:30.792	0:0:0:0:0:0:0:1:50006	admin	302		51.47 ms
+10:38:30.792	0:0:0:0:0:0:0:1:50006	admin	200		0.15 ms
+10:38:30.796	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[GET] http://localhost:8984/dba/create-db
+10:38:30.841	0:0:0:0:0:0:0:1:50006	admin	200		45.82 ms
+10:38:50.976	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[POST] http://localhost:8984/dba/create-db
+10:38:51.734	0:0:0:0:0:0:0:1:50006	admin	302		758.44 ms
+10:38:51.734	0:0:0:0:0:0:0:1:50006	admin	200		0.13 ms
+10:38:51.738	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[GET] http://localhost:8984/dba/database?name=account&info=Created%20Database%3A%20account
+10:38:51.789	0:0:0:0:0:0:0:1:50006	admin	200		51.76 ms
+10:39:20.472	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[GET] http://localhost:8984/dba/database?name=account&info=Created%20Database%3A%20account
+10:39:20.983	0:0:0:0:0:0:0:1:50006	admin	200		511.09 ms
+10:40:03.832	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[PUT] http://localhost:8984/rest/account/account-guardada.xml
+10:40:03.865	0:0:0:0:0:0:0:1:50006	admin	201	0 resource(s) replaced in 23.94 ms.	32.91 ms
+10:40:19.937	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[GET] http://localhost:8984/dba/database?name=account&info=Created%20Database%3A%20account
+10:40:20.752	0:0:0:0:0:0:0:1:50006	admin	200		815.54 ms
+10:40:21.948	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[GET] http://localhost:8984/dba/database?name=account&resource=account-guardada.xml
+10:40:21.998	0:0:0:0:0:0:0:1:50006	admin	200		50.5 ms
+10:40:22.253	0:0:0:0:0:0:0:1:50006	admin	REQUEST	[POST] http://localhost:8984/dba/query-resource?name=account&resource=account-guardada.xml&sort=&loglist=
+10:40:22.288	0:0:0:0:0:0:0:1:50006	admin	200		34.56 ms
+11:39:47.656	0:0:0:0:0:0:0:1:50204	admin	REQUEST	[GET] http://localhost:8984/
+11:39:47.750	0:0:0:0:0:0:0:1:50204	admin	200		96.95 ms
+11:52:56.128	0:0:0:0:0:0:0:1:50365	admin	REQUEST	[GET] http://localhost:8984/hello/World
+11:52:56.152	0:0:0:0:0:0:0:1:50365	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 3/14: [XPST0081] No namespace declared for 'xdb:get-current-user'.	23.5 ms
+11:52:59.355	0:0:0:0:0:0:0:1:50365	admin	REQUEST	[GET] http://localhost:8984/hello/Universe
+11:52:59.799	0:0:0:0:0:0:0:1:50365	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 3/14: [XPST0081] No namespace declared for 'xdb:get-current-user'.	443.86 ms
+12:07:49.939	0:0:0:0:0:0:0:1:50543	admin	REQUEST	[GET] http://localhost:8984/
+12:07:50.707	0:0:0:0:0:0:0:1:50543	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 3/14: [XPST0081] No namespace declared for 'xdb:get-current-user'.	768.86 ms
+12:30:54.668	0:0:0:0:0:0:0:1:50678	admin	REQUEST	[GET] http://localhost:8984/
+12:30:54.715	0:0:0:0:0:0:0:1:50678	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 3/14: [XPST0081] No namespace declared for 'xdb:get-current-user'.	47.94 ms
+12:44:01.022	0:0:0:0:0:0:0:1:50767	admin	REQUEST	[GET] http://localhost:8984/rest
+12:44:01.039	0:0:0:0:0:0:0:1:50767	admin	200		18.53 ms
+12:44:06.630	0:0:0:0:0:0:0:1:50767	admin	REQUEST	[GET] http://localhost:8984/rest/account
+12:44:06.642	0:0:0:0:0:0:0:1:50767	admin	200		12.06 ms
+12:44:33.719	0:0:0:0:0:0:0:1:50767	admin	REQUEST	[GET] http://localhost:8984/rest/account/account-guardada.xml
+12:44:34.458	0:0:0:0:0:0:0:1:50767	admin	200		739.61 ms
+13:10:44.347	0:0:0:0:0:0:0:1:51162	admin	REQUEST	[GET] http://localhost:8984/
+13:10:44.385	0:0:0:0:0:0:0:1:51162	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 4/35: [XPST0017] Java function 'org.exquery.ns.Request:getParameter' not found.	39.12 ms
+13:10:47.473	0:0:0:0:0:0:0:1:51162	admin	REQUEST	[GET] http://localhost:8984/
+13:10:47.513	0:0:0:0:0:0:0:1:51162	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 4/35: [XPST0017] Java function 'org.exquery.ns.Request:getParameter' not found.	39.62 ms
+13:19:14.690	127.0.0.1:51229	admin	REQUEST	REPO INSTALL hello-world.xqm	49.58 ms
+13:19:14.696	127.0.0.1:51229	admin	ERROR	Stopped at , 1/29: [bxerr:BXRE0001] Package 'hello-world.xqm' does not exist.	5.24 ms
+13:19:29.050	127.0.0.1:51229	admin	REQUEST	REPO INSTALL http://files.basex.org/modules/expath/functx-1.0.xar	0.56 ms
+13:19:30.207	127.0.0.1:51229	admin	OK	Package 'http://files.basex.org/modules/expath/functx-1.0.xar' installed in 1155.36 ms.	1157.32 ms
+13:20:05.498	127.0.0.1:51229	admin	REQUEST	REPO LIST	1.1 ms
+13:20:05.511	127.0.0.1:51229	admin	OK		12.22 ms
+13:20:16.299	127.0.0.1:51229	admin	REQUEST	REPO DELETE http://www.functx.com-1.0	1.7 ms
+13:20:16.308	127.0.0.1:51229	admin	OK	Package 'http://www.functx.com-1.0' deleted.	8.35 ms
+13:20:21.824	127.0.0.1:51229	admin	REQUEST	REPO LIST	0.65 ms
+13:20:21.825	127.0.0.1:51229	admin	OK		0.82 ms
+13:20:35.529	127.0.0.1:51229	admin	REQUEST	REPO INSTALL http://files.basex.org/modules/org/basex/modules/Hello/HelloWorld.xqm	0.73 ms
+13:20:36.123	127.0.0.1:51229	admin	OK	Package 'http://files.basex.org/modules/org/basex/modules/Hello/HelloWorld.xqm' installed in 591.93 ms.	594.04 ms
+13:21:10.696	127.0.0.1:51229	admin	REQUEST	REPO LIST	0.81 ms
+13:21:10.700	127.0.0.1:51229	admin	OK		3.91 ms
+13:21:47.056	127.0.0.1:51229	admin	REQUEST	REPO DELETE org/basex/modules/Hello.xqm	0.38 ms
+13:21:47.057	127.0.0.1:51229	admin	OK	Package 'org/basex/modules/Hello.xqm' deleted.	0.83 ms
+13:22:10.206	127.0.0.1:51229	admin	REQUEST	REPO LIST	0.67 ms
+13:22:10.208	127.0.0.1:51229	admin	OK		1.93 ms
+13:22:15.406	127.0.0.1:51229	admin	REQUEST	REPO DELETE org	0.68 ms
+13:22:15.507	127.0.0.1:51229	admin	OK	Package 'org' deleted.	101.44 ms
+13:23:44.061	127.0.0.1:51229	admin	REQUEST	REPO INSTALL http://exquery.org/ns/request	0.61 ms
+13:23:44.946	127.0.0.1:51229	admin	ERROR	Stopped at , 1/43: [bxerr:BXRE0001] Package 'http://exquery.org/ns/request' does not exist.	885.09 ms
+13:24:31.051	127.0.0.1:51229	admin	REQUEST	REPO INSTALL http://exquery.org/ns/request	0.67 ms
+13:24:31.638	127.0.0.1:51229	admin	ERROR	Stopped at , 1/43: [bxerr:BXRE0001] Package 'http://exquery.org/ns/request' does not exist.	587.11 ms
+13:25:05.851	127.0.0.1:51229	admin	REQUEST	REPO INSTALL http://exquery.org/ns/request	0.8 ms
+13:25:06.352	127.0.0.1:51229	admin	ERROR	Stopped at , 1/43: [bxerr:BXRE0001] Package 'http://exquery.org/ns/request' does not exist.	501.6 ms
+13:27:05.700	127.0.0.1:51229	admin	REQUEST	REPO INSTALL http://expath.org/ns/http-client	0.72 ms
+13:27:06.558	127.0.0.1:51229	admin	ERROR	Stopped at , 1/46: [bxerr:BXRE0001] Package 'http://expath.org/ns/http-client' does not exist.	858.13 ms
+13:27:35.059	127.0.0.1:51229	admin	REQUEST	REPO INSTALL http://basex.org/modules/xquery	0.64 ms
+13:27:37.904	127.0.0.1:51229	admin	ERROR	Stopped at , 1/45: [bxerr:BXRE0001] Package 'http://basex.org/modules/xquery' does not exist.	2845.2 ms
+13:30:30.069	127.0.0.1:51229	admin	REQUEST	REPO INSTALL http://exquery.org/ns/request	0.59 ms
+13:30:30.655	127.0.0.1:51229	admin	ERROR	Stopped at , 1/43: [bxerr:BXRE0001] Package 'http://exquery.org/ns/request' does not exist.	586.24 ms
+13:31:18.549	127.0.0.1:51229	admin	REQUEST	REPO INSTALL http://exist-db.org/xquery/request	0.79 ms
+13:31:19.296	127.0.0.1:51229	admin	ERROR	Stopped at , 1/48: [bxerr:BXRE0001] Package 'http://exist-db.org/xquery/request' does not exist.	747.12 ms
+13:34:18.729	127.0.0.1:51229	admin	REQUEST	REPO INSTALL http://expath.org/ns/http-client	3.58 ms
+13:34:19.110	127.0.0.1:51229	admin	ERROR	Stopped at , 1/46: [bxerr:BXRE0001] Package 'http://expath.org/ns/http-client' does not exist.	380.32 ms
+14:00:23.077	0:0:0:0:0:0:0:1:51507	admin	REQUEST	[GET] http://localhost:8984/
+14:00:23.112	0:0:0:0:0:0:0:1:51507	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 4/35: [XPST0017] Java function 'org.exquery.ns.Request:getParameter' not found.	36.18 ms
+14:00:25.210	0:0:0:0:0:0:0:1:51507	admin	REQUEST	[GET] http://localhost:8984/
+14:00:25.227	0:0:0:0:0:0:0:1:51507	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 4/35: [XPST0017] Java function 'org.exquery.ns.Request:getParameter' not found.	16.59 ms
+14:00:55.364	SERVER	admin	OK	Server was stopped (port: 1984).
+14:00:55.364	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+14:01:11.566	SERVER	admin	OK	Server was started (port: 1984).
+14:01:11.615	SERVER	admin	OK	HTTP Server was started (port: 8984).
+14:01:15.592	0:0:0:0:0:0:0:1:51525	admin	REQUEST	[GET] http://localhost:8984/
+14:01:16.894	0:0:0:0:0:0:0:1:51525	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 4/35: [XPST0017] Java function 'org.exquery.ns.Request:getParameter' not found.	1304.33 ms
+14:01:55.139	0:0:0:0:0:0:0:1:51525	admin	REQUEST	[GET] http://localhost:8984/
+14:01:55.519	0:0:0:0:0:0:0:1:51525	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 4/35: [XPST0017] Java function 'org.exquery.ns.Request:getParameter' not found.	380.01 ms
+14:01:58.490	SERVER	admin	OK	Server was stopped (port: 1984).
+14:01:58.491	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+14:02:26.658	SERVER	admin	OK	Server was started (port: 1984).
+14:02:26.694	SERVER	admin	OK	HTTP Server was started (port: 8984).
+14:02:28.936	0:0:0:0:0:0:0:1:51526	admin	REQUEST	[GET] http://localhost:8984/
+14:02:30.105	0:0:0:0:0:0:0:1:51526	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 4/35: [XPST0017] Java function 'org.exquery.ns.Request:getParameter' not found.	1171.26 ms
+14:02:36.474	0:0:0:0:0:0:0:1:51526	admin	REQUEST	[GET] http://localhost:8984/rest
+14:02:37.191	0:0:0:0:0:0:0:1:51526	admin	200		717.87 ms
+14:02:39.848	0:0:0:0:0:0:0:1:51526	admin	REQUEST	[GET] http://localhost:8984/
+14:02:40.198	0:0:0:0:0:0:0:1:51526	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 4/35: [XPST0017] Java function 'org.exquery.ns.Request:getParameter' not found.	350.8 ms
+14:03:12.737	0:0:0:0:0:0:0:1:51526	admin	REQUEST	[GET] http://localhost:8984/
+14:03:13.098	0:0:0:0:0:0:0:1:51526	admin	200		361.12 ms
+15:03:16.396	0:0:0:0:0:0:0:1:51823	admin	REQUEST	[GET] http://localhost:8984/
+15:03:16.462	0:0:0:0:0:0:0:1:51823	admin	200		66.37 ms
+15:09:03.865	0:0:0:0:0:0:0:1:51916	admin	REQUEST	[GET] http://localhost:8984/
+15:09:03.913	0:0:0:0:0:0:0:1:51916	admin	200		48.55 ms
+16:28:34.266	0:0:0:0:0:0:0:1:52168	admin	REQUEST	[GET] http://localhost:8984/
+16:28:34.430	0:0:0:0:0:0:0:1:52168	admin	200		164.97 ms
+17:57:31.806	127.0.0.1:53343	admin	REQUEST	REPO LIST	31.16 ms
+17:57:31.812	127.0.0.1:53343	admin	OK		5.17 ms
+18:00:08.484	127.0.0.1:53343	admin	REQUEST	REPO INSTALL http://basex.org/modules/sessions	1.45 ms
+18:00:11.481	127.0.0.1:53343	admin	ERROR	Stopped at , 1/47: [bxerr:BXRE0006] Package 'sessions' could not be parsed: Resource "expath-pkg.xml" not found..	2996.56 ms
+18:00:38.086	127.0.0.1:53343	admin	REQUEST	REPO INSTALL http://basex.org/modules/sessions	1.24 ms
+18:00:40.156	127.0.0.1:53343	admin	ERROR	Stopped at , 1/47: [bxerr:BXRE0006] Package 'sessions' could not be parsed: Resource "expath-pkg.xml" not found..	2069.64 ms
+18:09:09.770	0:0:0:0:0:0:0:1:53520	admin	REQUEST	[GET] http://localhost:8984/
+18:09:09.830	0:0:0:0:0:0:0:1:53520	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 4/13: [XPST0003] Expecting variable declaration.	61.22 ms
+18:14:49.623	127.0.0.1:53343	admin	REQUEST	HELP	5.06 ms
+18:14:49.625	127.0.0.1:53343	admin	OK		2.15 ms
+18:15:33.915	127.0.0.1:53343	admin	REQUEST	XQUERY /Users/Christian/Downloads/hoja-bonita.xq	5.33 ms
+18:15:33.919	127.0.0.1:53343	admin	ERROR	Stopped at ., 1/2: [XPDY0002] root(): no context value bound.	4.38 ms
+18:22:21.456	127.0.0.1:53343	admin	REQUEST	REPO INSTALL http://exist-db.org/xquery/request	5.92 ms
+18:22:22.262	127.0.0.1:53343	admin	ERROR	Stopped at , 1/48: [bxerr:BXRE0001] Package 'http://exist-db.org/xquery/request' does not exist.	805.3 ms
+18:27:17.939	0:0:0:0:0:0:0:1:53786	admin	REQUEST	[POST] http://localhost:8984/login.xq
+18:27:18.018	0:0:0:0:0:0:0:1:53786	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 4/43: [XPST0017] Unknown function 'request:get-parameter'.	79.04 ms
+18:31:27.232	0:0:0:0:0:0:0:1:53810	admin	REQUEST	[POST] http://localhost:8984/login
+18:31:27.278	0:0:0:0:0:0:0:1:53810	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 9/1: [XPST0003] Variable or function declaration expected.	47.11 ms
+18:31:45.118	0:0:0:0:0:0:0:1:53810	admin	REQUEST	[POST] http://localhost:8984/login
+18:31:45.145	0:0:0:0:0:0:0:1:53810	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 9/1: [XPST0003] Variable or function declaration expected.	27.56 ms
+18:32:04.541	0:0:0:0:0:0:0:1:53810	admin	REQUEST	[POST] http://localhost:8984/login.xq
+18:32:04.567	0:0:0:0:0:0:0:1:53810	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 9/1: [XPST0003] Variable or function declaration expected.	26.87 ms
+18:33:12.903	0:0:0:0:0:0:0:1:53822	admin	REQUEST	[GET] http://localhost:8984/
+18:33:12.943	0:0:0:0:0:0:0:1:53822	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 9/1: [XPST0003] Variable or function declaration expected.	40.97 ms
+18:35:26.508	0:0:0:0:0:0:0:1:53924	admin	REQUEST	[GET] http://localhost:8984/hello/World
+18:35:26.575	0:0:0:0:0:0:0:1:53924	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 9/1: [XPST0003] Variable or function declaration expected.	67.27 ms
+18:35:28.815	0:0:0:0:0:0:0:1:53924	admin	REQUEST	[GET] http://localhost:8984/hello/World
+18:35:28.833	0:0:0:0:0:0:0:1:53924	admin	400	Stopped at /Users/Christian/basex/webapp/static/authentication/login.xq, 9/1: [XPST0003] Variable or function declaration expected.	17.99 ms
+18:36:01.674	0:0:0:0:0:0:0:1:53924	admin	REQUEST	[GET] http://localhost:8984/hello/World
+18:36:01.757	0:0:0:0:0:0:0:1:53924	admin	400	Stopped at /Users/Christian/basex/webapp/static/otro.xq, 2/2: [XPST0003] No expression allowed in a library module.	83.24 ms
+18:36:44.969	0:0:0:0:0:0:0:1:53924	admin	REQUEST	[GET] http://localhost:8984/hello/World
+18:36:45.007	0:0:0:0:0:0:0:1:53924	admin	400	Stopped at /Users/Christian/basex/webapp/static/otro.xq, 2/2: [XPST0003] No expression allowed in a library module.	37.58 ms
+18:38:03.892	0:0:0:0:0:0:0:1:53931	admin	REQUEST	[GET] http://localhost:8984/hello/World
+18:38:03.939	0:0:0:0:0:0:0:1:53931	admin	400	Stopped at /Users/Christian/basex/webapp/static/otro.xq, 2/2: [XPST0003] No expression allowed in a library module.	47.26 ms
+18:38:15.237	0:0:0:0:0:0:0:1:53931	admin	REQUEST	[GET] http://localhost:8984/
+18:38:15.318	0:0:0:0:0:0:0:1:53931	admin	400	Stopped at /Users/Christian/basex/webapp/static/otro.xq, 2/2: [XPST0003] No expression allowed in a library module.	80.18 ms
+18:38:19.197	0:0:0:0:0:0:0:1:53931	admin	REQUEST	[GET] http://localhost:8984/
+18:38:19.228	0:0:0:0:0:0:0:1:53931	admin	400	Stopped at /Users/Christian/basex/webapp/static/otro.xq, 2/2: [XPST0003] No expression allowed in a library module.	31.64 ms
+18:40:41.210	0:0:0:0:0:0:0:1:53934	admin	REQUEST	[GET] http://localhost:8984/hello/
+18:40:41.224	0:0:0:0:0:0:0:1:53934	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 7/1: [XPST0003] Expecting function body.	14.41 ms
+18:42:54.446	0:0:0:0:0:0:0:1:53939	admin	REQUEST	[GET] http://localhost:8984/hello/
+18:42:54.462	0:0:0:0:0:0:0:1:53939	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 8/2: [XPST0003] Expecting function body.	15.93 ms
+18:42:57.061	0:0:0:0:0:0:0:1:53939	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:42:57.078	0:0:0:0:0:0:0:1:53939	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 8/2: [XPST0003] Expecting function body.	16.7 ms
+18:43:16.588	0:0:0:0:0:0:0:1:53939	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:43:16.609	0:0:0:0:0:0:0:1:53939	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 8/2: [XPST0003] Expecting function body.	20.52 ms
+18:43:55.475	0:0:0:0:0:0:0:1:53939	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:43:55.492	0:0:0:0:0:0:0:1:53939	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 8/2: [XPST0003] Expecting function body.	16.75 ms
+18:43:58.369	0:0:0:0:0:0:0:1:53939	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:43:58.387	0:0:0:0:0:0:0:1:53939	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 8/2: [XPST0003] Expecting function body.	17.98 ms
+18:44:06.515	0:0:0:0:0:0:0:1:53939	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:44:06.537	0:0:0:0:0:0:0:1:53939	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 8/2: [XPST0003] Expecting function body.	22.23 ms
+18:45:32.692	0:0:0:0:0:0:0:1:53943	admin	REQUEST	[GET] http://localhost:8984/
+18:45:32.713	0:0:0:0:0:0:0:1:53943	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 8/2: [XPST0003] Expecting function body.	21.5 ms
+18:45:35.541	0:0:0:0:0:0:0:1:53943	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:45:35.559	0:0:0:0:0:0:0:1:53943	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 8/2: [XPST0003] Expecting function body.	18.27 ms
+18:45:37.057	0:0:0:0:0:0:0:1:53943	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:45:37.070	0:0:0:0:0:0:0:1:53943	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 8/2: [XPST0003] Expecting function body.	12.75 ms
+18:46:04.729	0:0:0:0:0:0:0:1:53943	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:46:04.810	0:0:0:0:0:0:0:1:53943	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 6/10: [bxerr:BASX0003] Path "hello/{$who}" assigned to several functions: /Users/Christian/basex/webapp/otro.xq, 6/10 /Users/Christian/basex/webapp/restxq.xqm, 73/12	81.02 ms
+18:46:12.848	0:0:0:0:0:0:0:1:53943	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:46:12.891	0:0:0:0:0:0:0:1:53943	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 6/10: [bxerr:BASX0003] Path "hello/{$who}" assigned to several functions: /Users/Christian/basex/webapp/otro.xq, 6/10 /Users/Christian/basex/webapp/restxq.xqm, 73/12	42.74 ms
+18:47:29.146	0:0:0:0:0:0:0:1:53947	admin	REQUEST	[GET] http://localhost:8984/
+18:47:29.215	0:0:0:0:0:0:0:1:53947	admin	200		69.2 ms
+18:47:34.281	0:0:0:0:0:0:0:1:53947	admin	REQUEST	[GET] http://localhost:8984/hello
+18:47:34.375	0:0:0:0:0:0:0:1:53947	admin	404	No function found that matches the request.	93.6 ms
+18:47:38.302	0:0:0:0:0:0:0:1:53947	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:47:38.338	0:0:0:0:0:0:0:1:53947	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 6/10: [bxerr:BASX0003] Path "hello/{$who}" assigned to several functions: /Users/Christian/basex/webapp/otro.xq, 6/10 /Users/Christian/basex/webapp/restxq.xqm, 73/12	36.28 ms
+18:48:05.245	0:0:0:0:0:0:0:1:53947	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:48:05.287	0:0:0:0:0:0:0:1:53947	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 6/10: [bxerr:BASX0003] Path "hello/{$who}" assigned to several functions: /Users/Christian/basex/webapp/otro.xq, 6/10 /Users/Christian/basex/webapp/restxq.xqm, 73/12	41.82 ms
+18:48:14.877	0:0:0:0:0:0:0:1:53947	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:48:14.950	0:0:0:0:0:0:0:1:53947	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 6/10: [XPTY0004] Cannot promote element() to element(response): <html>...</html>.	72.85 ms
+18:48:36.726	0:0:0:0:0:0:0:1:53947	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:48:36.738	0:0:0:0:0:0:0:1:53947	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 8/2: [XPST0003] Expecting function body.	12.88 ms
+18:48:47.772	0:0:0:0:0:0:0:1:53947	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:48:47.849	0:0:0:0:0:0:0:1:53947	admin	400	Stopped at /Users/Christian/basex/webapp/otro.xq, 6/10: [XPTY0004] Cannot promote element() to element(response): <html>...</html>.	76.57 ms
+18:48:57.836	0:0:0:0:0:0:0:1:53947	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:48:57.875	0:0:0:0:0:0:0:1:53947	admin	200		39.58 ms
+18:51:02.346	0:0:0:0:0:0:0:1:53976	admin	REQUEST	[GET] http://localhost:8984/
+18:51:02.409	0:0:0:0:0:0:0:1:53976	admin	404	No function found that matches the request.	62.62 ms
+18:51:06.345	0:0:0:0:0:0:0:1:53976	admin	REQUEST	[GET] http://localhost:8984/hello/
+18:51:06.397	0:0:0:0:0:0:0:1:53976	admin	404	No function found that matches the request.	51.72 ms
+18:51:13.565	0:0:0:0:0:0:0:1:53976	admin	REQUEST	[GET] http://localhost:8984/
+18:51:13.594	0:0:0:0:0:0:0:1:53976	admin	404	No function found that matches the request.	29.2 ms
+18:51:15.098	0:0:0:0:0:0:0:1:53976	admin	REQUEST	[GET] http://localhost:8984/hello
+18:51:15.146	0:0:0:0:0:0:0:1:53976	admin	404	No function found that matches the request.	48.86 ms
+18:51:15.768	0:0:0:0:0:0:0:1:53976	admin	REQUEST	[GET] http://localhost:8984/
+18:51:15.799	0:0:0:0:0:0:0:1:53976	admin	404	No function found that matches the request.	31.35 ms
+18:51:17.333	0:0:0:0:0:0:0:1:53976	admin	REQUEST	[GET] http://localhost:8984/hello/
+18:51:17.366	0:0:0:0:0:0:0:1:53976	admin	404	No function found that matches the request.	33.47 ms
+18:51:29.433	0:0:0:0:0:0:0:1:53976	admin	REQUEST	[GET] http://localhost:8984/
+18:51:29.528	0:0:0:0:0:0:0:1:53976	admin	404	No function found that matches the request.	95.02 ms
+18:52:52.755	0:0:0:0:0:0:0:1:53999	admin	REQUEST	[GET] http://localhost:8984/
+18:52:52.789	0:0:0:0:0:0:0:1:53999	admin	200		34.51 ms
+18:54:36.769	0:0:0:0:0:0:0:1:54004	admin	REQUEST	[GET] http://localhost:8984/
+18:54:36.836	0:0:0:0:0:0:0:1:54004	admin	404	No function found that matches the request.	66.82 ms
+18:54:40.878	0:0:0:0:0:0:0:1:54004	admin	REQUEST	[GET] http://localhost:8984/hello/pedro
+18:54:40.916	0:0:0:0:0:0:0:1:54004	admin	200		37.73 ms
+18:55:34.044	0:0:0:0:0:0:0:1:54004	admin	REQUEST	[GET] http://localhost:8984/login
+18:55:34.057	0:0:0:0:0:0:0:1:54004	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 4/20: [bxerr:BASX0003] Variable $who is not assigned by the annotations.	12.45 ms
+18:55:49.010	0:0:0:0:0:0:0:1:54004	admin	REQUEST	[GET] http://localhost:8984/login
+18:55:49.044	0:0:0:0:0:0:0:1:54004	admin	200		34.15 ms
+18:58:44.535	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login
+18:58:44.549	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/25: [XPST0008] Undefined variable $user.	13.58 ms
+18:58:49.488	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+18:58:49.506	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/25: [XPST0008] Undefined variable $user.	18.22 ms
+18:59:45.344	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+18:59:45.355	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 6/10: [bxerr:BASX0003] Variable $user is specified more than once.	11.15 ms
+19:00:19.318	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:00:19.331	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 5/28: [XPST0003] Literal expected, ')' found.	12.35 ms
+19:00:50.645	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:00:50.662	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 5/28: [XPST0003] Literal expected, ')' found.	16.8 ms
+19:00:52.534	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:00:52.546	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 5/28: [XPST0003] Literal expected, ')' found.	12.27 ms
+19:01:01.389	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:01:01.402	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 6/10: [bxerr:BASX0003] Invalid path template: "$who".	12.76 ms
+19:01:18.341	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:01:18.352	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 5/28: [XPST0003] Literal expected, ')' found.	11.18 ms
+19:01:40.220	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:01:40.233	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 5/28: [XPST0003] Literal expected, ')' found.	12.33 ms
+19:01:41.885	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:01:41.896	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 5/28: [XPST0003] Literal expected, ')' found.	11.23 ms
+19:01:53.301	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:01:53.314	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 6/10: [bxerr:BASX0003] Variable $who is specified more than once.	13.04 ms
+19:02:04.061	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:02:04.072	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 5/28: [XPST0003] Literal expected, ')' found.	11.23 ms
+19:02:12.356	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:02:12.409	0:0:0:0:0:0:0:1:54015	admin	200		53.55 ms
+19:02:40.891	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:02:40.902	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/32: [XPST0003] Literal expected, ')' found.	11.1 ms
+19:02:51.026	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:02:51.042	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/39: [XPST0003] No annotation allowed here.	15.8 ms
+19:03:10.635	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:03:10.648	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/32: [XPST0003] Literal expected, ')' found.	13.58 ms
+19:03:37.322	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:03:37.338	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 6/10: [bxerr:BASX0003] Invalid path template: "pedro".	15.5 ms
+19:04:23.697	0:0:0:0:0:0:0:1:54015	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:04:23.708	0:0:0:0:0:0:0:1:54015	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 6/10: [bxerr:BASX0003] Variable $who is specified more than once.	11.0 ms
+19:05:51.589	0:0:0:0:0:0:0:1:54023	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:05:51.621	0:0:0:0:0:0:0:1:54023	admin	200		32.05 ms
+19:06:09.075	0:0:0:0:0:0:0:1:54023	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:06:09.087	0:0:0:0:0:0:0:1:54023	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 6/10: [bxerr:BASX0003] Variable $loco is not specified as argument.	12.44 ms
+19:06:21.371	0:0:0:0:0:0:0:1:54023	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:06:21.407	0:0:0:0:0:0:0:1:54023	admin	200		35.46 ms
+19:07:17.786	0:0:0:0:0:0:0:1:54023	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:07:17.799	0:0:0:0:0:0:0:1:54023	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 6/10: [bxerr:BASX0003] Variable $auth is not specified as argument.	12.73 ms
+19:07:27.450	0:0:0:0:0:0:0:1:54023	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:07:27.516	0:0:0:0:0:0:0:1:54023	admin	200		65.55 ms
+19:07:42.498	0:0:0:0:0:0:0:1:54023	admin	REQUEST	[GET] http://localhost:8984/login/pedro
+19:07:42.537	0:0:0:0:0:0:0:1:54023	admin	200		39.15 ms
+19:10:31.671	0:0:0:0:0:0:0:1:54030	admin	REQUEST	[GET] http://localhost:8984/login/pedro/1234
+19:10:31.683	0:0:0:0:0:0:0:1:54030	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 5/1: [XPST0003] Variable or function declaration expected.	12.44 ms
+19:10:57.676	0:0:0:0:0:0:0:1:54030	admin	REQUEST	[GET] http://localhost:8984/login/pedro/1234
+19:10:57.692	0:0:0:0:0:0:0:1:54030	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 5/1: [XPST0003] Variable or function declaration expected.	16.27 ms
+19:11:03.008	0:0:0:0:0:0:0:1:54030	admin	REQUEST	[GET] http://localhost:8984/login/pedro/1234
+19:11:03.022	0:0:0:0:0:0:0:1:54030	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 5/1: [XPST0003] Variable or function declaration expected.	13.81 ms
+19:11:13.476	0:0:0:0:0:0:0:1:54030	admin	REQUEST	[GET] http://localhost:8984/login/pedro/1234
+19:11:13.487	0:0:0:0:0:0:0:1:54030	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 5/1: [XPST0003] Variable or function declaration expected.	11.19 ms
+19:11:39.388	0:0:0:0:0:0:0:1:54030	admin	REQUEST	[GET] http://localhost:8984/login/pedro/1234
+19:11:39.403	0:0:0:0:0:0:0:1:54030	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/37: [XQST0118] Different start and end tag: <passsword>...</password>.	14.49 ms
+19:11:50.829	0:0:0:0:0:0:0:1:54030	admin	REQUEST	[GET] http://localhost:8984/login/pedro/1234
+19:11:50.880	0:0:0:0:0:0:0:1:54030	admin	200		50.73 ms
+19:12:28.124	0:0:0:0:0:0:0:1:54030	admin	REQUEST	[GET] http://localhost:8984/login.xml
+19:12:28.171	0:0:0:0:0:0:0:1:54030	admin	404	No function found that matches the request.	47.57 ms
+19:12:48.023	0:0:0:0:0:0:0:1:54030	admin	REQUEST	[POST] http://localhost:8984/login
+19:12:48.058	0:0:0:0:0:0:0:1:54030	admin	404	No function found that matches the request.	35.79 ms
+19:14:54.256	0:0:0:0:0:0:0:1:54030	admin	REQUEST	[POST] http://localhost:8984/login
+19:14:54.294	0:0:0:0:0:0:0:1:54030	admin	404	No function found that matches the request.	37.9 ms
+19:15:17.910	0:0:0:0:0:0:0:1:54030	admin	REQUEST	[POST] http://localhost:8984/login
+19:15:17.958	0:0:0:0:0:0:0:1:54030	admin	404	No function found that matches the request.	47.98 ms
+19:19:07.460	0:0:0:0:0:0:0:1:54055	admin	REQUEST	[POST] http://localhost:8984/login.xq
+19:19:07.478	0:0:0:0:0:0:0:1:54055	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/1: [XPST0003] Expecting function body.	17.98 ms
+19:19:25.498	0:0:0:0:0:0:0:1:54055	admin	REQUEST	[POST] http://localhost:8984/login
+19:19:25.511	0:0:0:0:0:0:0:1:54055	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/1: [XPST0003] Expecting function body.	13.25 ms
+19:19:51.690	0:0:0:0:0:0:0:1:54055	admin	REQUEST	[POST] http://localhost:8984/login
+19:19:51.705	0:0:0:0:0:0:0:1:54055	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/1: [XPST0003] Expecting function body.	15.71 ms
+19:20:06.417	0:0:0:0:0:0:0:1:54055	admin	REQUEST	[POST] http://localhost:8984/login
+19:20:06.433	0:0:0:0:0:0:0:1:54055	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/1: [XPST0003] Expecting function body.	16.76 ms
+19:20:39.395	0:0:0:0:0:0:0:1:54055	admin	REQUEST	[POST] http://localhost:8984/login
+19:20:39.407	0:0:0:0:0:0:0:1:54055	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/1: [XPST0003] Expecting function body.	12.18 ms
+19:22:48.254	0:0:0:0:0:0:0:1:54074	admin	REQUEST	[POST] http://localhost:8984/login
+19:22:48.272	0:0:0:0:0:0:0:1:54074	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/1: [XPST0003] Expecting function body.	18.18 ms
+19:23:58.033	0:0:0:0:0:0:0:1:54079	admin	REQUEST	[POST] http://localhost:8984/login
+19:23:58.047	0:0:0:0:0:0:0:1:54079	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/1: [XPST0003] Expecting function body.	14.63 ms
+19:24:17.761	0:0:0:0:0:0:0:1:54079	admin	REQUEST	[POST] http://localhost:8984/login
+19:24:17.776	0:0:0:0:0:0:0:1:54079	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/1: [XPST0003] Expecting function body.	15.69 ms
+19:24:35.127	0:0:0:0:0:0:0:1:54079	admin	REQUEST	[POST] http://localhost:8984/login
+19:24:35.147	0:0:0:0:0:0:0:1:54079	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 8/1: [XPST0003] Expecting function body.	20.03 ms
+19:24:58.481	0:0:0:0:0:0:0:1:54079	admin	REQUEST	[POST] http://localhost:8984/login
+19:24:58.494	0:0:0:0:0:0:0:1:54079	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 2/1: [XPST0003] No expression allowed in a library module.	13.18 ms
+19:25:36.495	0:0:0:0:0:0:0:1:54079	admin	REQUEST	[POST] http://localhost:8984/login
+19:25:36.512	0:0:0:0:0:0:0:1:54079	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 2/1: [XPST0003] No expression allowed in a library module.	17.15 ms
+19:26:01.625	0:0:0:0:0:0:0:1:54079	admin	REQUEST	[POST] http://localhost:8984/login
+19:26:01.638	0:0:0:0:0:0:0:1:54079	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 2/1: [XPST0003] No expression allowed in a library module.	13.12 ms
+19:26:16.327	0:0:0:0:0:0:0:1:54079	admin	REQUEST	[POST] http://localhost:8984/login
+19:26:16.339	0:0:0:0:0:0:0:1:54079	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 2/1: [XPST0003] No expression allowed in a library module.	11.67 ms
+19:26:25.164	0:0:0:0:0:0:0:1:54079	admin	REQUEST	[POST] http://localhost:8984/login
+19:26:25.180	0:0:0:0:0:0:0:1:54079	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 2/1: [XPST0003] No expression allowed in a library module.	16.46 ms
+19:26:59.760	0:0:0:0:0:0:0:1:54079	admin	REQUEST	[GET] http://localhost:8984/login?user=pedro&password=juan
+19:26:59.773	0:0:0:0:0:0:0:1:54079	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 2/1: [XPST0003] No expression allowed in a library module.	13.3 ms
+19:28:06.700	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[GET] http://localhost:8984/login?user=pedro&password=juan
+19:28:06.797	0:0:0:0:0:0:0:1:54105	admin	200		96.56 ms
+19:28:19.446	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[GET] http://localhost:8984/login?user=lucas&password=manuel
+19:28:19.479	0:0:0:0:0:0:0:1:54105	admin	200		33.7 ms
+19:28:26.062	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[POST] http://localhost:8984/login
+19:28:26.095	0:0:0:0:0:0:0:1:54105	admin	200		33.08 ms
+19:29:00.895	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[POST] http://localhost:8984/login
+19:29:00.942	0:0:0:0:0:0:0:1:54105	admin	200		46.59 ms
+19:29:09.678	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[POST] http://localhost:8984/login
+19:29:09.716	0:0:0:0:0:0:0:1:54105	admin	200		37.41 ms
+19:29:37.256	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[POST] http://localhost:8984/login
+19:29:37.289	0:0:0:0:0:0:0:1:54105	admin	200		33.79 ms
+19:30:19.668	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[POST] http://localhost:8984/login
+19:30:19.702	0:0:0:0:0:0:0:1:54105	admin	200		34.64 ms
+19:30:42.435	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[POST] http://localhost:8984/login
+19:30:42.470	0:0:0:0:0:0:0:1:54105	admin	200		35.42 ms
+19:30:44.229	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[POST] http://localhost:8984/login
+19:30:44.265	0:0:0:0:0:0:0:1:54105	admin	200		35.41 ms
+19:30:44.669	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[POST] http://localhost:8984/login
+19:30:44.722	0:0:0:0:0:0:0:1:54105	admin	200		53.33 ms
+19:30:44.878	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[POST] http://localhost:8984/login
+19:30:44.927	0:0:0:0:0:0:0:1:54105	admin	200		49.52 ms
+19:30:45.021	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[POST] http://localhost:8984/login
+19:30:45.061	0:0:0:0:0:0:0:1:54105	admin	200		40.73 ms
+19:30:45.182	0:0:0:0:0:0:0:1:54105	admin	REQUEST	[POST] http://localhost:8984/login
+19:30:45.213	0:0:0:0:0:0:0:1:54105	admin	200		31.73 ms
+19:37:09.990	0:0:0:0:0:0:0:1:54141	admin	REQUEST	[POST] http://localhost:8984/login
+19:37:10.162	0:0:0:0:0:0:0:1:54141	admin	200		171.5 ms
+19:37:57.298	0:0:0:0:0:0:0:1:54141	admin	REQUEST	[POST] http://localhost:8984/login
+19:37:57.350	0:0:0:0:0:0:0:1:54141	admin	200		52.94 ms
+19:43:48.814	0:0:0:0:0:0:0:1:54187	admin	REQUEST	[GET] http://localhost:8984/login.xml
+19:43:48.897	0:0:0:0:0:0:0:1:54187	admin	404	No function found that matches the request.	82.26 ms
+19:49:48.745	0:0:0:0:0:0:0:1:54278	admin	REQUEST	[GET] http://localhost:8984/
+19:49:48.807	0:0:0:0:0:0:0:1:54278	admin	404	No function found that matches the request.	61.84 ms
+20:00:47.881	0:0:0:0:0:0:0:1:54335	admin	REQUEST	[GET] http://localhost:8984/
+20:00:47.981	0:0:0:0:0:0:0:1:54335	admin	404	No function found that matches the request.	102.06 ms
+20:00:50.962	0:0:0:0:0:0:0:1:54335	admin	REQUEST	[GET] http://localhost:8984/rest
+20:00:50.972	0:0:0:0:0:0:0:1:54335	admin	200		9.83 ms
+20:00:56.071	0:0:0:0:0:0:0:1:54335	admin	REQUEST	[GET] http://localhost:8984/rest/account
+20:00:56.865	0:0:0:0:0:0:0:1:54335	admin	200		793.69 ms
+20:05:17.583	0:0:0:0:0:0:0:1:54342	admin	REQUEST	[POST] http://localhost:8984/login
+20:05:17.599	0:0:0:0:0:0:0:1:54342	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 3/13: [XPST0081] No namespace declared for 'request:get-data'.	16.42 ms
+20:05:26.144	0:0:0:0:0:0:0:1:54342	admin	REQUEST	[POST] http://localhost:8984/login
+20:05:26.179	0:0:0:0:0:0:0:1:54342	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 3/13: [XPST0081] No namespace declared for 'request:get-data'.	35.04 ms
+20:07:36.826	127.0.0.1:53343	admin	REQUEST	REPO LIST	1.02 ms
+20:07:37.576	127.0.0.1:53343	admin	OK		749.65 ms
+20:07:43.822	127.0.0.1:53343	admin	REQUEST	HELP	0.9 ms
+20:07:43.823	127.0.0.1:53343	admin	OK		1.09 ms
+20:08:27.446	0:0:0:0:0:0:0:1:54376	admin	REQUEST	[POST] http://localhost:8984/login
+20:08:27.482	0:0:0:0:0:0:0:1:54376	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 2/10: [XPST0003] Unexpected end of query: 'import module n...'.	36.23 ms
+20:08:44.776	0:0:0:0:0:0:0:1:54376	admin	REQUEST	[POST] http://localhost:8984/login
+20:08:44.795	0:0:0:0:0:0:0:1:54376	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 2/10: [XPST0003] Unexpected end of query: 'module namespac...'.	19.38 ms
+20:09:18.907	0:0:0:0:0:0:0:1:54376	admin	REQUEST	[POST] http://localhost:8984/login
+20:09:18.926	0:0:0:0:0:0:0:1:54376	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 2/10: [XPST0003] Unexpected end of query: 'module namespac...'.	18.98 ms
+20:09:49.878	0:0:0:0:0:0:0:1:54385	admin	REQUEST	[POST] http://localhost:8984/login
+20:09:49.900	0:0:0:0:0:0:0:1:54385	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 3/30: [XPST0017] Java function 'org.exquery.ns.Request:getData' not found.	21.77 ms
+20:10:07.882	0:0:0:0:0:0:0:1:54385	admin	REQUEST	[POST] http://localhost:8984/login
+20:10:07.906	0:0:0:0:0:0:0:1:54385	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 3/30: [XPST0017] Java function 'org.exquery.ns.Request:getData' not found.	24.61 ms
+20:11:06.107	0:0:0:0:0:0:0:1:54385	admin	REQUEST	[POST] http://localhost:8984/login
+20:11:06.139	0:0:0:0:0:0:0:1:54385	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 3/1: [XQST0059] Module 'http://xquery.org/ns/request' not found.	32.34 ms
+20:11:28.334	0:0:0:0:0:0:0:1:54385	admin	REQUEST	[POST] http://localhost:8984/login
+20:11:28.353	0:0:0:0:0:0:0:1:54385	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 3/30: [XPST0017] Java function 'org.exquery.ns.Request:getData' not found.	19.13 ms
+20:13:41.394	0:0:0:0:0:0:0:1:54472	admin	REQUEST	[POST] http://localhost:8984/login
+20:13:41.429	0:0:0:0:0:0:0:1:54472	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 3/30: [XPST0017] Unknown function 'request:get-data'.	35.12 ms
+20:15:27.299	127.0.0.1:53343	admin	REQUEST	REPO LIST	0.86 ms
+20:15:27.302	127.0.0.1:53343	admin	OK		3.21 ms
+20:15:32.210	127.0.0.1:53343	admin	REQUEST	REPO INSTALL request	0.68 ms
+20:15:32.215	127.0.0.1:53343	admin	ERROR	Stopped at , 1/21: [bxerr:BXRE0001] Package 'request' does not exist.	4.92 ms
+20:15:38.635	127.0.0.1:53343	admin	REQUEST	REPO INSTALL Request	1.08 ms
+20:15:38.635	127.0.0.1:53343	admin	ERROR	Stopped at , 1/21: [bxerr:BXRE0001] Package 'Request' does not exist.	0.7 ms
+20:20:45.959	127.0.0.1:53343	admin	REQUEST	REPO INSTALL http://exquery.github.io/expath-specs-playground/request-module-1.0-specification.html	1.49 ms
+20:20:46.789	127.0.0.1:53343	admin	ERROR	Stopped at , 1/100: [bxerr:BXRE0006] Package 'request-module-1.0-specification.html' could not be parsed: Resource "expath-pkg.xml" not found..	830.01 ms
+20:21:14.374	127.0.0.1:53343	admin	REQUEST	REPO INSTALL http://exquery.org/	0.76 ms
+20:21:15.689	127.0.0.1:53343	admin	ERROR	Stopped at , 1/33: [bxerr:BXRE0006] Package '1442798474731.basex.xml' could not be parsed: Resource "expath-pkg.xml" not found..	1314.91 ms
+20:23:56.269	0:0:0:0:0:0:0:1:54628	admin	REQUEST	[POST] http://localhost:8984/login
+20:23:56.310	0:0:0:0:0:0:0:1:54628	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 6/13: [XPST0008] Undefined variable $doc.	41.38 ms
+20:24:22.987	0:0:0:0:0:0:0:1:54628	admin	REQUEST	[POST] http://localhost:8984/login
+20:24:23.007	0:0:0:0:0:0:0:1:54628	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 6/31: [XPST0008] Undefined variable $password.	19.65 ms
+20:43:51.755	127.0.0.1:53343	admin	REQUEST	REPO INSTALL http://basex.org/modules/session	5.21 ms
+20:43:54.091	127.0.0.1:53343	admin	ERROR	Stopped at , 1/46: [bxerr:BXRE0006] Package 'session' could not be parsed: Resource "expath-pkg.xml" not found..	2335.76 ms
+20:58:55.375	0:0:0:0:0:0:0:1:55295	admin	REQUEST	[GET] http://localhost:8984/
+20:58:55.434	0:0:0:0:0:0:0:1:55295	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 6/31: [XPST0008] Undefined variable $password.	59.33 ms
+21:19:24.211	0:0:0:0:0:0:0:1:55387	admin	REQUEST	[GET] http://localhost:8984/
+21:19:24.233	0:0:0:0:0:0:0:1:55387	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 5/41: [XPST0003] Variable or function declaration expected.	22.87 ms
+21:19:27.001	0:0:0:0:0:0:0:1:55387	admin	REQUEST	[GET] http://localhost:8984/
+21:19:27.016	0:0:0:0:0:0:0:1:55387	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 5/41: [XPST0003] Variable or function declaration expected.	15.19 ms
+21:19:34.081	0:0:0:0:0:0:0:1:55387	admin	REQUEST	[POST] http://localhost:8984/login
+21:19:34.094	0:0:0:0:0:0:0:1:55387	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 5/41: [XPST0003] Variable or function declaration expected.	13.03 ms
+21:19:42.713	0:0:0:0:0:0:0:1:55387	admin	REQUEST	[POST] http://localhost:8984/login
+21:19:42.740	0:0:0:0:0:0:0:1:55387	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 5/41: [XPST0003] Variable or function declaration expected.	26.7 ms
+21:22:21.986	0:0:0:0:0:0:0:1:55405	admin	REQUEST	[GET] http://localhost:8984/
+21:22:22.006	0:0:0:0:0:0:0:1:55405	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 5/41: [XPST0003] Variable or function declaration expected.	19.79 ms
+21:27:36.082	0:0:0:0:0:0:0:1:55435	admin	REQUEST	[POST] http://localhost:8984/login
+21:27:36.105	0:0:0:0:0:0:0:1:55435	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 3/50: [XPST0003] Variable or function declaration expected.	23.4 ms
+21:28:03.435	0:0:0:0:0:0:0:1:55435	admin	REQUEST	[POST] http://localhost:8984/login
+21:28:03.460	0:0:0:0:0:0:0:1:55435	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 3/50: [XPST0003] Variable or function declaration expected.	25.14 ms
+21:28:39.405	0:0:0:0:0:0:0:1:55435	admin	REQUEST	[POST] http://localhost:8984/login
+21:28:39.429	0:0:0:0:0:0:0:1:55435	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 1/10: [XPST0003] Unexpected end of query: 'module namespac...'.	23.63 ms
+21:32:23.575	0:0:0:0:0:0:0:1:55448	admin	REQUEST	[POST] http://localhost:8984/login
+21:32:23.596	0:0:0:0:0:0:0:1:55448	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 4/50: [XPST0003] Variable or function declaration expected.	21.19 ms
+21:33:40.277	0:0:0:0:0:0:0:1:55455	admin	REQUEST	[POST] http://localhost:8984/login
+21:33:40.299	0:0:0:0:0:0:0:1:55455	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 4/50: [XPST0003] Variable or function declaration expected.	21.89 ms
+21:35:48.089	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[POST] http://localhost:8984/login
+21:35:48.116	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 4/50: [XPST0003] Variable or function declaration expected.	27.38 ms
+21:35:56.386	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[POST] http://localhost:8984/login
+21:35:56.409	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 4/50: [XPST0003] Variable or function declaration expected.	22.91 ms
+21:36:00.376	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login
+21:36:00.420	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 4/50: [XPST0003] Variable or function declaration expected.	43.95 ms
+21:36:27.637	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login
+21:36:27.653	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 4/50: [XPST0003] Variable or function declaration expected.	16.2 ms
+21:36:55.222	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login
+21:36:55.239	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 4/50: [XPST0003] Variable or function declaration expected.	17.0 ms
+21:37:02.500	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login
+21:37:02.515	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 4/50: [XPST0003] Variable or function declaration expected.	15.18 ms
+21:37:09.586	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login
+21:37:09.598	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 4/50: [XPST0003] Variable or function declaration expected.	12.22 ms
+21:37:21.075	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login
+21:37:21.091	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 4/50: [XPST0003] Variable or function declaration expected.	15.68 ms
+21:37:36.652	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login
+21:37:36.665	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 4/50: [XPST0003] Variable or function declaration expected.	13.28 ms
+21:37:51.812	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login
+21:37:51.825	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xq, 4/50: [XPST0003] Variable or function declaration expected.	13.34 ms
+21:38:00.266	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login
+21:38:00.361	0:0:0:0:0:0:0:1:55475	admin	404	No function found that matches the request.	94.87 ms
+21:38:15.116	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login
+21:38:15.151	0:0:0:0:0:0:0:1:55475	admin	404	No function found that matches the request.	35.0 ms
+21:38:21.972	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login/pedro/perez
+21:38:22.005	0:0:0:0:0:0:0:1:55475	admin	200		33.63 ms
+21:39:11.922	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login/
+21:39:11.936	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 5/10: [bxerr:BASX0003] Invalid path template: "$body".	13.49 ms
+21:39:28.455	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/login
+21:39:28.468	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 5/10: [bxerr:BASX0003] Invalid path template: "$body".	13.61 ms
+21:39:32.719	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[POST] http://localhost:8984/login
+21:39:32.732	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 5/10: [bxerr:BASX0003] Invalid path template: "$body".	13.87 ms
+21:40:05.134	0:0:0:0:0:0:0:1:55475	admin	REQUEST	[GET] http://localhost:8984/
+21:40:05.147	0:0:0:0:0:0:0:1:55475	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 5/10: [bxerr:BASX0003] Invalid path template: "$body".	13.45 ms
+21:43:44.929	0:0:0:0:0:0:0:1:55518	admin	REQUEST	[GET] http://localhost:8984/put
+21:43:44.942	0:0:0:0:0:0:0:1:55518	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 10/1: [XPST0003] No expression allowed in a library module.	12.87 ms
+21:44:49.021	0:0:0:0:0:0:0:1:55522	admin	REQUEST	[GET] http://localhost:8984/put
+21:44:49.099	0:0:0:0:0:0:0:1:55522	admin	404	No function found that matches the request.	78.39 ms
+21:45:03.506	0:0:0:0:0:0:0:1:55522	admin	REQUEST	[GET] http://localhost:8984/put
+21:45:03.546	0:0:0:0:0:0:0:1:55522	admin	404	No function found that matches the request.	39.8 ms
+21:45:08.999	0:0:0:0:0:0:0:1:55522	admin	REQUEST	[GET] http://localhost:8984/put
+21:45:09.039	0:0:0:0:0:0:0:1:55522	admin	404	No function found that matches the request.	40.78 ms
+21:45:23.849	0:0:0:0:0:0:0:1:55522	admin	REQUEST	[GET] http://localhost:8984/login
+21:45:23.887	0:0:0:0:0:0:0:1:55522	admin	404	No function found that matches the request.	38.71 ms
+21:45:26.425	0:0:0:0:0:0:0:1:55522	admin	REQUEST	[GET] http://localhost:8984/put
+21:45:26.464	0:0:0:0:0:0:0:1:55522	admin	404	No function found that matches the request.	38.42 ms
+21:45:30.231	0:0:0:0:0:0:0:1:55522	admin	REQUEST	[POST] http://localhost:8984/login
+21:45:30.266	0:0:0:0:0:0:0:1:55522	admin	404	No function found that matches the request.	35.45 ms
+21:45:47.224	0:0:0:0:0:0:0:1:55522	admin	REQUEST	[POST] http://localhost:8984/login
+21:45:47.257	0:0:0:0:0:0:0:1:55522	admin	404	No function found that matches the request.	33.19 ms
+21:56:52.401	0:0:0:0:0:0:0:1:55665	admin	REQUEST	[POST] http://localhost:8984/login
+21:56:52.507	0:0:0:0:0:0:0:1:55665	admin	404	No function found that matches the request.	106.87 ms
+22:00:31.878	0:0:0:0:0:0:0:1:55684	admin	REQUEST	[POST] http://localhost:8984/login
+22:00:31.900	0:0:0:0:0:0:0:1:55684	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 4/10: [XPST0003] Variable or function declaration expected.	21.98 ms
+22:01:14.419	0:0:0:0:0:0:0:1:55684	admin	REQUEST	[POST] http://localhost:8984/login
+22:01:14.530	0:0:0:0:0:0:0:1:55684	admin	200		110.78 ms
+22:01:29.994	0:0:0:0:0:0:0:1:55684	admin	REQUEST	[POST] http://localhost:8984/login
+22:01:30.046	0:0:0:0:0:0:0:1:55684	admin	200		52.24 ms
+22:01:44.206	0:0:0:0:0:0:0:1:55684	admin	REQUEST	[POST] http://localhost:8984/login
+22:01:44.256	0:0:0:0:0:0:0:1:55684	admin	200		50.45 ms
+22:02:03.360	0:0:0:0:0:0:0:1:55684	admin	REQUEST	[POST] http://localhost:8984/login
+22:02:03.407	0:0:0:0:0:0:0:1:55684	admin	200		47.34 ms
+22:02:28.046	0:0:0:0:0:0:0:1:55684	admin	REQUEST	[POST] http://localhost:8984/login
+22:02:28.093	0:0:0:0:0:0:0:1:55684	admin	200		47.29 ms
+22:02:54.327	0:0:0:0:0:0:0:1:55684	admin	REQUEST	[POST] http://localhost:8984/login
+22:02:54.366	0:0:0:0:0:0:0:1:55684	admin	200		39.19 ms
+22:03:59.863	0:0:0:0:0:0:0:1:55716	admin	REQUEST	[POST] http://localhost:8984/login
+22:03:59.923	0:0:0:0:0:0:0:1:55716	admin	200		60.51 ms
+22:04:19.147	0:0:0:0:0:0:0:1:55716	admin	REQUEST	[POST] http://localhost:8984/login
+22:04:19.188	0:0:0:0:0:0:0:1:55716	admin	200		41.26 ms
+22:04:40.495	0:0:0:0:0:0:0:1:55716	admin	REQUEST	[POST] http://localhost:8984/login
+22:04:40.545	0:0:0:0:0:0:0:1:55716	admin	200		49.71 ms
+22:05:01.888	0:0:0:0:0:0:0:1:55716	admin	REQUEST	[POST] http://localhost:8984/login
+22:05:01.930	0:0:0:0:0:0:0:1:55716	admin	200		41.93 ms
+22:05:18.152	0:0:0:0:0:0:0:1:55734	admin	REQUEST	[POST] http://localhost:8984/login
+22:05:18.193	0:0:0:0:0:0:0:1:55734	admin	200		41.0 ms
+22:06:05.485	0:0:0:0:0:0:0:1:55734	admin	REQUEST	[POST] http://localhost:8984/login
+22:06:05.527	0:0:0:0:0:0:0:1:55734	admin	200		42.73 ms
+22:07:31.991	0:0:0:0:0:0:0:1:55746	admin	REQUEST	[POST] http://localhost:8984/login
+22:07:32.003	0:0:0:0:0:0:0:1:55746	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 2/2: [XPST0003] No expression allowed in a library module.	12.59 ms
+22:07:56.214	0:0:0:0:0:0:0:1:55746	admin	REQUEST	[POST] http://localhost:8984/login
+22:07:56.228	0:0:0:0:0:0:0:1:55746	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 3/2: [XPST0003] No expression allowed in a library module.	13.67 ms
+22:08:20.427	0:0:0:0:0:0:0:1:55746	admin	REQUEST	[POST] http://localhost:8984/login
+22:08:20.473	0:0:0:0:0:0:0:1:55746	admin	200		45.88 ms
+22:09:34.478	0:0:0:0:0:0:0:1:55779	admin	REQUEST	[POST] http://localhost:8984/login
+22:09:34.490	0:0:0:0:0:0:0:1:55779	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 5/3: [XPST0003] Expecting function body.	11.83 ms
+22:09:55.148	0:0:0:0:0:0:0:1:55779	admin	REQUEST	[POST] http://localhost:8984/login
+22:09:55.160	0:0:0:0:0:0:0:1:55779	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 6/1: [XPST0003] Expecting function body.	11.58 ms
+22:10:07.511	0:0:0:0:0:0:0:1:55779	admin	REQUEST	[POST] http://localhost:8984/login
+22:10:07.567	0:0:0:0:0:0:0:1:55779	admin	200		56.31 ms
+22:12:11.865	0:0:0:0:0:0:0:1:55793	admin	REQUEST	[GET] http://localhost:8984/
+22:12:11.923	0:0:0:0:0:0:0:1:55793	admin	404	No function found that matches the request.	57.72 ms
+22:12:15.191	0:0:0:0:0:0:0:1:55793	admin	REQUEST	[GET] http://localhost:8984/rest
+22:12:15.199	0:0:0:0:0:0:0:1:55793	admin	200		8.25 ms
+22:18:35.068	0:0:0:0:0:0:0:1:55805	admin	REQUEST	[POST] http://localhost:8984/login
+22:18:35.086	0:0:0:0:0:0:0:1:55805	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 9/17: [XPST0008] Undefined variable $user.	17.96 ms
+22:18:35.583	0:0:0:0:0:0:0:1:55805	admin	REQUEST	[POST] http://localhost:8984/login
+22:18:35.594	0:0:0:0:0:0:0:1:55805	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 9/17: [XPST0008] Undefined variable $user.	11.5 ms
+22:18:43.542	0:0:0:0:0:0:0:1:55805	admin	REQUEST	[POST] http://localhost:8984/login
+22:18:43.556	0:0:0:0:0:0:0:1:55805	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 9/17: [XPST0008] Undefined variable $user.	13.94 ms
+22:19:26.097	0:0:0:0:0:0:0:1:55805	admin	REQUEST	[POST] http://localhost:8984/login
+22:19:26.180	0:0:0:0:0:0:0:1:55805	admin	200		83.24 ms
+22:20:30.038	0:0:0:0:0:0:0:1:55815	admin	REQUEST	[POST] http://localhost:8984/login
+22:20:30.100	0:0:0:0:0:0:0:1:55815	admin	200		61.95 ms
+22:26:47.777	0:0:0:0:0:0:0:1:55832	admin	REQUEST	[POST] http://localhost:8984/login
+22:26:47.855	0:0:0:0:0:0:0:1:55832	admin	200		78.89 ms
+22:27:11.410	0:0:0:0:0:0:0:1:55832	admin	REQUEST	[POST] http://localhost:8984/login
+22:27:11.483	0:0:0:0:0:0:0:1:55832	admin	200		73.19 ms
+22:27:36.323	0:0:0:0:0:0:0:1:55832	admin	REQUEST	[POST] http://localhost:8984/login
+22:27:36.410	0:0:0:0:0:0:0:1:55832	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 8/20: [XPDY0002] root(): no context value bound. Stack Trace: - /Users/Christian/basex/webapp/reqLogin.xqm, 4/10	87.28 ms
+22:28:01.341	0:0:0:0:0:0:0:1:55832	admin	REQUEST	[POST] http://localhost:8984/login
+22:28:01.387	0:0:0:0:0:0:0:1:55832	admin	200		46.15 ms
+22:28:22.704	0:0:0:0:0:0:0:1:55832	admin	REQUEST	[POST] http://localhost:8984/login
+22:28:22.896	0:0:0:0:0:0:0:1:55832	admin	200		192.07 ms
+22:28:35.616	0:0:0:0:0:0:0:1:55832	admin	REQUEST	[GET] http://localhost:8984/rest
+22:28:35.625	0:0:0:0:0:0:0:1:55832	admin	200		9.88 ms
+22:28:39.094	0:0:0:0:0:0:0:1:55832	admin	REQUEST	[GET] http://localhost:8984/rest/account
+22:28:39.097	0:0:0:0:0:0:0:1:55832	admin	200		3.93 ms
+22:28:43.182	0:0:0:0:0:0:0:1:55832	admin	REQUEST	[GET] http://localhost:8984/rest/account/account-guardada.xml
+22:28:43.188	0:0:0:0:0:0:0:1:55832	admin	200		5.81 ms
+22:34:09.409	0:0:0:0:0:0:0:1:55880	admin	REQUEST	[POST] http://localhost:8984/login
+22:34:09.435	0:0:0:0:0:0:0:1:55880	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 6/11: [XPST0003] Expecting ':=', found '='.	26.55 ms
+22:34:24.963	0:0:0:0:0:0:0:1:55880	admin	REQUEST	[POST] http://localhost:8984/login
+22:34:25.062	0:0:0:0:0:0:0:1:55880	admin	200		98.93 ms
+22:35:17.828	0:0:0:0:0:0:0:1:55880	admin	REQUEST	[POST] http://localhost:8984/login
+22:35:17.868	0:0:0:0:0:0:0:1:55880	admin	200		40.85 ms
+22:35:30.601	0:0:0:0:0:0:0:1:55880	admin	REQUEST	[POST] http://localhost:8984/login
+22:35:30.654	0:0:0:0:0:0:0:1:55880	admin	200		53.46 ms
+22:39:15.228	SERVER	admin	OK	Server was started (port: 1984).
+22:39:15.341	SERVER	admin	OK	HTTP Server was started (port: 8984).
+22:39:25.237	0:0:0:0:0:0:0:1:49367	admin	REQUEST	[GET] http://localhost:8984/rest/account/account-guardada.xml
+22:39:26.396	0:0:0:0:0:0:0:1:49367	admin	200		1162.44 ms
+22:39:27.018	0:0:0:0:0:0:0:1:49367	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+22:39:29.282	0:0:0:0:0:0:0:1:49367	admin	404	No function found that matches the request.	2263.6 ms
+22:39:33.006	0:0:0:0:0:0:0:1:49367	admin	REQUEST	[GET] http://localhost:8984/
+22:39:33.079	0:0:0:0:0:0:0:1:49367	admin	404	No function found that matches the request.	73.7 ms
+22:39:47.213	0:0:0:0:0:0:0:1:49368	admin	REQUEST	[POST] http://localhost:8984/login
+22:39:47.386	0:0:0:0:0:0:0:1:49368	admin	200		172.71 ms
+22:40:04.238	0:0:0:0:0:0:0:1:49368	admin	REQUEST	[POST] http://localhost:8984/login
+22:40:04.329	0:0:0:0:0:0:0:1:49368	admin	200		90.5 ms
+22:42:31.330	0:0:0:0:0:0:0:1:49626	admin	REQUEST	[POST] http://localhost:8984/login
+22:42:31.432	0:0:0:0:0:0:0:1:49626	admin	200		101.85 ms
+22:45:44.185	0:0:0:0:0:0:0:1:49641	admin	REQUEST	[POST] http://localhost:8984/login
+22:45:44.267	0:0:0:0:0:0:0:1:49641	admin	200		83.19 ms
+22:46:12.482	0:0:0:0:0:0:0:1:49641	admin	REQUEST	[POST] http://localhost:8984/login
+22:46:13.164	0:0:0:0:0:0:0:1:49641	admin	200		682.22 ms
+22:47:08.395	0:0:0:0:0:0:0:1:49641	admin	REQUEST	[POST] http://localhost:8984/login
+22:47:08.474	0:0:0:0:0:0:0:1:49641	admin	200		79.01 ms
+22:48:08.576	0:0:0:0:0:0:0:1:49641	admin	REQUEST	[POST] http://localhost:8984/login
+22:48:08.649	0:0:0:0:0:0:0:1:49641	admin	200		72.85 ms
+22:48:39.924	0:0:0:0:0:0:0:1:49641	admin	REQUEST	[POST] http://localhost:8984/login
+22:48:39.986	0:0:0:0:0:0:0:1:49641	admin	200		62.13 ms
+22:49:04.513	0:0:0:0:0:0:0:1:49641	admin	REQUEST	[POST] http://localhost:8984/login
+22:49:04.570	0:0:0:0:0:0:0:1:49641	admin	200		57.23 ms
+22:49:23.578	0:0:0:0:0:0:0:1:49641	admin	REQUEST	[POST] http://localhost:8984/login
+22:49:23.663	0:0:0:0:0:0:0:1:49641	admin	200		85.7 ms
+22:50:05.765	0:0:0:0:0:0:0:1:49641	admin	REQUEST	[POST] http://localhost:8984/login
+22:50:05.817	0:0:0:0:0:0:0:1:49641	admin	200		52.63 ms
+22:51:49.169	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:51:49.212	0:0:0:0:0:0:0:1:49734	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 12/2: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	44.66 ms
+22:52:07.589	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:52:07.624	0:0:0:0:0:0:0:1:49734	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 12/2: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	35.99 ms
+22:52:31.999	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:52:32.029	0:0:0:0:0:0:0:1:49734	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 18/2: [XPST0003] Expecting '}', found '%'.	30.47 ms
+22:53:10.753	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:53:10.780	0:0:0:0:0:0:0:1:49734	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 20/1: [XPST0003] Variable or function declaration expected.	27.17 ms
+22:53:28.884	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:53:28.908	0:0:0:0:0:0:0:1:49734	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 18/1: [XPST0003] Expecting '}', found 'd'.	23.99 ms
+22:53:39.090	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:53:39.113	0:0:0:0:0:0:0:1:49734	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 18/1: [XPST0003] Expecting '}', found 'd'.	23.33 ms
+22:54:03.049	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:54:03.076	0:0:0:0:0:0:0:1:49734	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 18/1: [XPST0003] Expecting '}', found 'd'.	27.1 ms
+22:54:27.911	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:54:27.939	0:0:0:0:0:0:0:1:49734	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 21/45: [XPST0003] Variable or function declaration expected.	28.36 ms
+22:54:59.766	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:54:59.791	0:0:0:0:0:0:0:1:49734	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 4/10: [bxerr:BASX0003] Invalid path template: "ok".	26.05 ms
+22:55:00.119	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:55:00.135	0:0:0:0:0:0:0:1:49734	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 4/10: [bxerr:BASX0003] Invalid path template: "ok".	17.03 ms
+22:55:35.127	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:55:35.147	0:0:0:0:0:0:0:1:49734	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 4/10: [bxerr:BASX0003] Variable $user is not specified as argument.	19.72 ms
+22:56:09.916	0:0:0:0:0:0:0:1:49734	admin	REQUEST	[POST] http://localhost:8984/login
+22:56:09.979	0:0:0:0:0:0:0:1:49734	admin	200		63.03 ms
+22:57:23.579	0:0:0:0:0:0:0:1:49843	admin	REQUEST	[POST] http://localhost:8984/login
+22:57:23.630	0:0:0:0:0:0:0:1:49843	admin	200		51.07 ms
+22:59:05.279	0:0:0:0:0:0:0:1:49850	admin	REQUEST	[POST] http://localhost:8984/login
+22:59:05.298	0:0:0:0:0:0:0:1:49850	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 4/2: [XPST0003] No expression allowed in a library module.	19.31 ms
+22:59:30.731	0:0:0:0:0:0:0:1:49850	admin	REQUEST	[POST] http://localhost:8984/login
+22:59:30.754	0:0:0:0:0:0:0:1:49850	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 10/1: [XPST0003] Expecting '}', found 'l'.	23.78 ms
+23:00:27.008	0:0:0:0:0:0:0:1:49850	admin	REQUEST	[POST] http://localhost:8984/login
+23:00:27.026	0:0:0:0:0:0:0:1:49850	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 10/1: [XPST0003] Expecting '}', found 'l'.	18.59 ms
+23:00:45.785	0:0:0:0:0:0:0:1:49850	admin	REQUEST	[POST] http://localhost:8984/login
+23:00:45.837	0:0:0:0:0:0:0:1:49850	admin	200		52.0 ms
+23:18:21.718	0:0:0:0:0:0:0:1:50169	admin	REQUEST	[GET] http://localhost:8984/restxq/showcookie
+23:18:22.504	0:0:0:0:0:0:0:1:50169	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 3/2: [XPST0003] No expression allowed in a library module.	786.57 ms
+23:27:09.192	0:0:0:0:0:0:0:1:50362	admin	REQUEST	[POST] http://localhost:8984/login
+23:27:09.231	0:0:0:0:0:0:0:1:50362	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 19/15: [XPST0003] Expecting '}', found '>'.	39.37 ms
+23:27:37.620	0:0:0:0:0:0:0:1:50362	admin	REQUEST	[POST] http://localhost:8984/login
+23:27:37.645	0:0:0:0:0:0:0:1:50362	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 19/15: [XPST0003] Expecting '}', found '>'.	25.56 ms
+23:28:19.854	0:0:0:0:0:0:0:1:50362	admin	REQUEST	[POST] http://localhost:8984/login
+23:28:19.895	0:0:0:0:0:0:0:1:50362	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 19/15: [XPST0003] Expecting '}', found '>'.	41.64 ms
+23:28:41.499	0:0:0:0:0:0:0:1:50362	admin	REQUEST	[POST] http://localhost:8984/login
+23:28:41.530	0:0:0:0:0:0:0:1:50362	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 19/7: [XPST0003] Expecting '}', found '>'.	31.11 ms
+23:28:54.659	0:0:0:0:0:0:0:1:50362	admin	REQUEST	[POST] http://localhost:8984/login
+23:28:54.746	0:0:0:0:0:0:0:1:50362	admin	200		87.75 ms
+23:29:30.614	0:0:0:0:0:0:0:1:50362	admin	REQUEST	[POST] http://localhost:8984/login
+23:29:30.644	0:0:0:0:0:0:0:1:50362	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 16/41: [XPST0003] Expecting quote, found '$'.	30.23 ms
+23:29:54.981	0:0:0:0:0:0:0:1:50362	admin	REQUEST	[POST] http://localhost:8984/login
+23:29:55.031	0:0:0:0:0:0:0:1:50362	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 19/7: [XPST0003] Expecting '}', found '>'.	50.7 ms
+23:30:41.889	0:0:0:0:0:0:0:1:50362	admin	REQUEST	[POST] http://localhost:8984/login
+23:30:41.915	0:0:0:0:0:0:0:1:50362	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 16/41: [XPST0003] Expecting quote, found 'c'.	26.24 ms
+23:30:59.332	0:0:0:0:0:0:0:1:50362	admin	REQUEST	[POST] http://localhost:8984/login
+23:30:59.358	0:0:0:0:0:0:0:1:50362	admin	400	Stopped at /Users/Christian/basex/webapp/reqLogin.xqm, 19/7: [XPST0003] Expecting '}', found '>'.	26.24 ms
+23:31:19.745	0:0:0:0:0:0:0:1:50362	admin	REQUEST	[POST] http://localhost:8984/login
+23:31:19.822	0:0:0:0:0:0:0:1:50362	admin	200		77.77 ms
+23:41:45.107	0:0:0:0:0:0:0:1:50501	admin	REQUEST	[GET] http://localhost:8984/
+23:41:45.159	0:0:0:0:0:0:0:1:50501	admin	404	No function found that matches the request.	52.05 ms
+23:41:55.398	0:0:0:0:0:0:0:1:50501	admin	REQUEST	[POST] http://localhost:8984/login
+23:41:56.192	0:0:0:0:0:0:0:1:50501	admin	200		793.7 ms
+23:42:01.466	0:0:0:0:0:0:0:1:50501	admin	REQUEST	[POST] http://localhost:8984/login
+23:42:01.502	0:0:0:0:0:0:0:1:50501	admin	200		36.37 ms
+23:46:53.962	SERVER	admin	OK	Server was stopped (port: 1984).
+23:46:53.963	SERVER	admin	OK	HTTP Server was stopped (port: 8984).

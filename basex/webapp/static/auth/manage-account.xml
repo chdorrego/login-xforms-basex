@@ -1,0 +1,84 @@
+<?xml-stylesheet href="xsltforms/xsltforms.xsl" type="text/xsl"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xf="http://www.w3.org/2002/xforms">
+<head>
+	<title></title>
+	<style type="text/css">
+   @namespace xf url("http://www.w3.org/2002/xforms");
+ 
+  .xforms-group {
+     display: table;
+   }
+ 
+   .xforms-input, .xforms-secret, .xforms-output {
+      display: table-row;
+   }
+ 
+   .xforms-value {
+      text-align: left;
+   }
+ 
+   .xforms-input .xforms-label, .xforms-secret .xforms-label {
+      display: table-cell;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-align: right;
+      width: 110px;
+   }
+   
+   legend {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-align: left;
+   }
+   .xforms-output {
+     color:red;
+   }
+ 
+</style>
+	<xf:model xmlns:xf="http://www.w3.org/2002/xforms">
+		<xf:instance>
+			<account xmlns="">
+				<user required="true"/>
+				<name required="true"/>
+				<email required="true"/>
+				<password required="true" />
+			</account>
+		</xf:instance>
+		
+		<xf:submission id="save" method="PUT" replace="none" validate="true">
+			<xf:resource value="concat('/rest/account/',//user, '.xml')" ></xf:resource>
+			<xf:message ev:event="xforms-submit-error" if="event('error-type')='validation-error'">Suministre la información requerida.</xf:message>
+		</xf:submission>
+		<xf:bind nodeset="instance()//*[@required='true']" required="true()" /> 
+	</xf:model>
+	
+	
+</head>
+<body>
+	<fieldset>
+		<legend>Registro de usuario</legend>
+		<xf:input ref="user" >
+			<xf:label>Usuario: </xf:label>
+			
+		</xf:input>
+		<br/>
+		<xf:input ref="name">
+			<xf:label>Nombre: </xf:label>
+		
+		</xf:input>
+		<br/>
+		<xf:input ref="email" >
+			<xf:label>Correo: </xf:label>
+		</xf:input>
+		<br/>
+		<xf:secret ref="password" >
+			<xf:label>Contrasena: </xf:label>
+		</xf:secret>
+		<br/>
+		<xf:submit submission="save">
+			<xf:label>Registrar</xf:label>
+		</xf:submit>
+		<br/>
+	</fieldset>
+</body>
+</html>

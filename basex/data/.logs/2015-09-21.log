@@ -1,0 +1,20 @@
+15:15:16.700	SERVER	admin	OK	Server was started (port: 1984).
+15:15:16.746	SERVER	admin	OK	HTTP Server was started (port: 8984).
+15:15:21.736	0:0:0:0:0:0:0:1:49196	admin	REQUEST	[GET] http://localhost:8984/
+15:15:22.541	0:0:0:0:0:0:0:1:49197	admin	REQUEST	[GET] http://localhost:8984/
+15:15:23.509	0:0:0:0:0:0:0:1:49196	admin	404	No function found that matches the request.	1776.55 ms
+15:15:23.571	0:0:0:0:0:0:0:1:49197	admin	404	No function found that matches the request.	1030.4 ms
+15:15:23.811	0:0:0:0:0:0:0:1:49197	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:15:23.883	0:0:0:0:0:0:0:1:49197	admin	404	No function found that matches the request.	72.66 ms
+15:15:23.900	0:0:0:0:0:0:0:1:49197	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:15:23.901	0:0:0:0:0:0:0:1:49198	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+15:15:23.969	0:0:0:0:0:0:0:1:49197	admin	404	No function found that matches the request.	68.5 ms
+15:15:24.031	0:0:0:0:0:0:0:1:49198	admin	404	No function found that matches the request.	130.61 ms
+15:16:44.937	0:0:0:0:0:0:0:1:49271	admin	REQUEST	[POST] http://localhost:8984/login
+15:16:45.242	0:0:0:0:0:0:0:1:49271	admin	200		305.27 ms
+15:16:53.422	0:0:0:0:0:0:0:1:49271	admin	REQUEST	[POST] http://localhost:8984/login
+15:16:53.499	0:0:0:0:0:0:0:1:49271	admin	200		77.57 ms
+15:17:06.730	0:0:0:0:0:0:0:1:49271	admin	REQUEST	[POST] http://localhost:8984/login
+15:17:06.803	0:0:0:0:0:0:0:1:49271	admin	200		73.89 ms
+15:25:22.340	SERVER	admin	OK	Server was stopped (port: 1984).
+15:25:22.340	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
