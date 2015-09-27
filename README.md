@@ -7,7 +7,7 @@ Este proyecto contine
 * ```webapp/login.xq``` DETALLAR PENDIENTE
 * ```webapp/logout.xq``` DETALLAR PENDIENTE
 
-## Cambios necesarios para una correcta ejecición (sobre Basex 8.3) ##
+## Configuraciones adicionales para una correcta ejecición (sobre Basex 8.3) ##
 Estos cambios son necesarios para utilizar el [Módulo Session de basex](http://docs.basex.org/wiki/Session_Module) (manejo de sesión en la aplicación).
 
 1. Modificar el archivo ```.basex``` con las direcciones absolutas de la máquina donde se ejecuta el codigo. ```DBPATH REPOPATH USER PASSWORD WEBPATH```
@@ -22,7 +22,7 @@ Remplazar linea número 13 de ```basexhttp``` por:
 ```
 CP="$BX/BaseX.jar$(printf ":%s" "$BX/lib/"*.jar "$BXCORE/lib/"*.jar):$CLASSPATH""/lib/basex-api-8.2.3.jar"
 ```
-
+####**Nota:* Paso 2 y 3 se encuentran en el proyecto.  
 ## Equipo 
 * Eli Pacheco 
 * Christian Orrego - chd.orrego@gmail.com
