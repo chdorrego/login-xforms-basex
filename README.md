@@ -15,9 +15,12 @@ Estos cambios son necesarios para utilizar el [Módulo Session de basex](http://
 
 2. Para ejecutar basex en windows
 Remplazar linea número 8 de ```basexhttp.bat``` por:
+
 ```set CP=%PWD%/../BaseX.jar;%PWD%/../lib/basex-api-8.2.3.jar```
+
 3. Para ejecutar basex en distribuciones linux y MacOS
 Remplazar linea número 13 de ```basexhttp``` por: 
+
 ```CP="$BX/BaseX.jar$(printf ":%s" "$BX/lib/"*.jar "$BXCORE/lib/"*.jar):$CLASSPATH""/lib/basex-api-8.2.3.jar"```
 
 #### Nota: Paso 2 y 3 se encuentran en el proyecto.  
