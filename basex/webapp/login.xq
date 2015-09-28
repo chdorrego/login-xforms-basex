@@ -14,14 +14,15 @@ let $users := $db/account[user=$user and password=$pwd]  (:Validate user and pas
 let $result := if ($users/user) then concat( 'Bienvenido ', $user) else 'Usuario/Contraseña Incorrectos!'
 
 let $session_validator :=  session:set('user', if($users/user) then 'active' else 'inactive')
-let $sesion_status := session:get('user')
+let $session_status := session:get('user')
 
-return
+return if($session_status = 'inactive')
+then
 <account>
 	<user>{$user}</user>
 	<password>{$pwd}</password>
 	<result>{$result}</result>
-	<session>{$sesion_status} </session> (:Elemento de prueba eliminar :)
 </account>
-
+else
+<rest:redirect>http://localhost:8984/static/auth/logout-example.xml</rest:redirect>
 };
