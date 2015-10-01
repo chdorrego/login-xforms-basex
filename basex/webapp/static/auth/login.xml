@@ -46,8 +46,7 @@
                <result/>
             </account>
          </xf:instance>
-          <xf:submission id="login" name="loginForm" action="/login" method="post" replace="instance"
-validate="true"/>
+          <xf:submission id="login" name="loginForm" action="/login" method="post" validate="true" replace="all"/>
 		  <xf:bind ref="/login/user" required="true" />
       </xf:model>
    </head>

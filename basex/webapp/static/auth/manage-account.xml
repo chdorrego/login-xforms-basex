@@ -48,6 +48,9 @@
 		<xf:submission id="save" method="PUT" replace="none" validate="true">
 			<xf:resource value="concat('/rest/account/',//user, '.xml')" ></xf:resource>
 			<xf:message ev:event="xforms-submit-error" if="event('error-type')='validation-error'">Suministre la información requerida.</xf:message>
+			<xf:message ev:event="xforms-submit-done">
+				Usuario fue creado exitosamente!
+			</xf:message> 
 		</xf:submission>
 		<xf:bind nodeset="instance()//*[@required='true']" required="true()" /> 
 	</xf:model>

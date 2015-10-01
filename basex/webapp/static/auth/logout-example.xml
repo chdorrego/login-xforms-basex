@@ -11,10 +11,11 @@
             <rest/>
          </test>
          </xf:instance>
-          <xf:submission id="logout" name="logout" action="/logout" method="PUT" replace="instance"/>
+          <xf:submission id="logout" name="logout" action="/logout" method="POST" replace="all"/>
       </xf:model>
    </head>
    <body>
+         <p>Bienvenido</p>
          <xf:submit submission="logout">
             <xf:label>Salir</xf:label>
          </xf:submit>

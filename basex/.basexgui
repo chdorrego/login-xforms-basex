@@ -18,7 +18,7 @@ COLORGREEN = 11
 COLORBLUE = 6
 
 # Windows
-UPDATEVERSION = 8.2.3
+UPDATEVERSION = 8.3
 VIEWS = V H editor folder map plot - H text info table tree explore - - 
 GUISIZE0 = 1004
 GUISIZE1 = 741
